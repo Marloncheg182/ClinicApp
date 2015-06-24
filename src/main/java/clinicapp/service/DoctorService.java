@@ -13,7 +13,7 @@ public interface DoctorService {
 
     void delete(long id);
 
-    Doctor getByLastnameOrFirstname(String firstName, String lastName);
+    Doctor getByLastName(String lastName);
 
     Doctor editDoctor(Doctor doctor);
 

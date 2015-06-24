@@ -26,8 +26,8 @@ public class DoctorServiceImpl implements DoctorService {
     }
 
     @Override
-    public Doctor getByLastnameOrFirstname(String firstName,String lastName) {
-        return doctorRepository.findByLastnameOrFirstname(firstName,lastName);
+    public Doctor getByLastName(String lastName) {
+        return doctorRepository.findByLastName(lastName);
     }
 
     @Override
