@@ -12,6 +12,17 @@
         </sourceRoots>
       </configuration>
     </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/jpa-repositories-config.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/clinicapp/config/DataBeanConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/clinicapp/Web/config/SecurityConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/clinicapp/config/TestDataBeanConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/clinicapp/Web/config/WebAppConfiguration.java</file>
+        </fileset>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
