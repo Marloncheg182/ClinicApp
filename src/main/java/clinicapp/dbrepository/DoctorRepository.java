@@ -7,14 +7,17 @@ import org.springframework.data.repository.query.Param;
 
 public interface DoctorRepository extends JpaRepository<Doctor, Long> {
 
-   
-    Doctor findByLastName(String lastName);
+    @Query("select d from Doctor d where d.lastName = :lastName")
+    Doctor findByLastName(@Param("lastname") String lastName);
 
-    Doctor findByFirstName(String firstName);
+    @Query("select d from Doctor d where d.firstName = :firstName")
+    Doctor findByFirstName(@Param("firstname") String firstName);
 
-    Doctor findByPosition(String position);
+    @Query("select d from Doctor d where d.position = :position")
+    Doctor findByPosition(@Param("position") String position);
 
-    Doctor findByRating(String rating);
+    @Query("select d from Doctor d where d.rating = :rating")
+    Doctor findByRating(@Param("rating") String rating);
 
 
 }

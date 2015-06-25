@@ -20,6 +20,7 @@
           <file>file://$MODULE_DIR$/src/main/java/clinicapp/Web/config/SecurityConfig.java</file>
           <file>file://$MODULE_DIR$/src/main/java/clinicapp/config/TestDataBeanConfig.java</file>
           <file>file://$MODULE_DIR$/src/main/java/clinicapp/Web/config/WebAppConfiguration.java</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/application-context.xml</file>
         </fileset>
       </configuration>
     </facet>

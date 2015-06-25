@@ -10,7 +10,7 @@ public interface InsuranceService {
     Insurance addInsurance(Insurance insurance);
 
     // Read by accoint
-    Insurance getByBankAccount(String account);
+    Insurance getByBankAccount(String bankaccount);
 
     // Update
     Insurance editInsurance(Insurance insurance);

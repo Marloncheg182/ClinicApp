@@ -7,10 +7,10 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "nurse")
+@Table(name = "Nurse")
 public class Nurse {
     @Id
-    @GeneratedValue(generator = "increment")
+    @GeneratedValue(generator = "increment", strategy = GenerationType.AUTO)
     @GenericGenerator(name = "increment", strategy = "increment")
     @Column(name = "id", length = 6, nullable = false)
     private long id;

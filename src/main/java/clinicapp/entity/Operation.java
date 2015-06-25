@@ -5,11 +5,11 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "operation")
+@Table(name = "Operation")
 public class Operation {
 
     @Id
-    @GeneratedValue(generator = "increment")
+    @GeneratedValue(generator = "increment", strategy = GenerationType.AUTO)
     @GenericGenerator(name = "increment", strategy = "increment")
     @Column(name = "id", length = 6, nullable = false)
     private long id;

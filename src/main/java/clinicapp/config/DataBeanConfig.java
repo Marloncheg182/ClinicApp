@@ -21,7 +21,7 @@ import java.util.Properties;
 @EnableTransactionManagement                      // Transactions in DBases are enabled
 @ComponentScan("clinicapp")                       // src for Spring components
 @PropertySource("classpath:app.properties")       // enable our app.properties config
-@EnableJpaRepositories("clinicapp.dbrepository")    // enable the JPA repository in repository dir.
+@EnableJpaRepositories("clinicapp")    // enable the JPA repository in repository dir.
 public class DataBeanConfig {
 
     private static final String PROP_DATABASE_DRIVER = "db.driver";

@@ -21,8 +21,8 @@ public class InsuranceServiceImpl implements InsuranceService {
     }
 
     @Override
-    public Insurance getByBankAccount(String account) {
-        return insuranceRepository.findByBankAccount(account);
+    public Insurance getByBankAccount(String bankaccount) {
+        return insuranceRepository.findByBankAccount(bankaccount);
     }
 
     @Override
