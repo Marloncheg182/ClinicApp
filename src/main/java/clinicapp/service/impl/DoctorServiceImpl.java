@@ -21,8 +21,8 @@ public class DoctorServiceImpl implements DoctorService {
     }
 
     @Override
-    public void delete(long id) {
-        doctorRepository.delete(id);
+    public Doctor getByFirstName(String firstName) {
+        return doctorRepository.findByFirstName(firstName);
     }
 
     @Override
@@ -31,12 +31,27 @@ public class DoctorServiceImpl implements DoctorService {
     }
 
     @Override
+    public List<Doctor> getAll() {
+        return doctorRepository.findAll();
+    }
+
+    @Override
+    public Doctor getByPosition(String position) {
+        return doctorRepository.findByPosition(position);
+    }
+
+    @Override
+    public Doctor getByRating(String rating) {
+        return doctorRepository.findByRating(rating);
+    }
+
+    @Override
     public Doctor editDoctor(Doctor doctor) {
         return doctorRepository.saveAndFlush(doctor);
     }
 
     @Override
-    public List<Doctor> getAll() {
-        return doctorRepository.findAll();
+    public void delete(long id) {
+        doctorRepository.delete(id);
     }
 }

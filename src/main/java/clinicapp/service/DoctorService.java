@@ -4,18 +4,22 @@ import clinicapp.entity.Doctor;
 
 import java.util.List;
 
-/**
- * Created by Dell on 6/25/2015.
- */
 public interface DoctorService {
 
+    // Create table
     Doctor addDoctor(Doctor doctor);
-
-    void delete(long id);
-
+    // Read by first name
+    Doctor getByFirstName(String firstName);
+    // Read by last name
     Doctor getByLastName(String lastName);
-
-    Doctor editDoctor(Doctor doctor);
-
+    // Read all
     List<Doctor> getAll();
+    // Read by position
+    Doctor getByPosition(String position);
+    // Read by rating
+    Doctor getByRating(String rating);
+    // Update
+    Doctor editDoctor(Doctor doctor);
+    // Delete by id
+    void delete(long id);
 }

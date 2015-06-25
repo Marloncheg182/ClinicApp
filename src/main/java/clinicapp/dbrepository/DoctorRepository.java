@@ -9,4 +9,12 @@ public interface DoctorRepository extends JpaRepository<Doctor, Long> {
 
    
     Doctor findByLastName(String lastName);
+
+    Doctor findByFirstName(String firstName);
+
+    Doctor findByPosition(String position);
+
+    Doctor findByRating(String rating);
+
+
 }
