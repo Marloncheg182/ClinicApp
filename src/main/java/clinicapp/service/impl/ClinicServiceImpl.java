@@ -40,4 +40,5 @@ public class ClinicServiceImpl implements ClinicService {
     public List<Clinic> getAll() {
         return clinicRepository.findAll();
     }
+
 }

@@ -8,6 +8,9 @@ import org.springframework.data.repository.query.Param;
 
 public interface ClinicRepository extends JpaRepository<Clinic, Long> {
 
-    @Query("select c from Clinic c where c.name= :name")
+    // Using of query for access to base in case, if we want to find a name
+    @Query( "SELECT c FROM Clinic c WHERE c.name = :name")
     Clinic findByName(@Param("name")String name);
+
+
 }

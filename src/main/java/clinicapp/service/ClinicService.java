@@ -6,13 +6,14 @@ import java.util.List;
 
 public interface ClinicService {
 
+    // Create
     Clinic addClinic(Clinic clinic);
-
-    void delete(long id);
-
+    // Read
     Clinic getByName(String name);
-
-    Clinic editClinic(Clinic clinic);
-
+    // Read all
     List<Clinic> getAll();
+    // Update
+    Clinic editClinic(Clinic clinic);
+    // Delete
+    void delete(long id);
 }
