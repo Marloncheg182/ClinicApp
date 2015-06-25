@@ -1,7 +1,6 @@
 package clinicapp.entity;
 
 import org.hibernate.annotations.GenericGenerator;
-
 import javax.persistence.*;
 
 @Entity
@@ -12,7 +11,7 @@ public class Clinic {
     @GeneratedValue(generator = "increment")
     @GenericGenerator(name = "increment", strategy = "increment")
     @Column(name = "id", length = 6, nullable = false)
-    private long id;
+    private  long id;
 
     @Column(name = "name")
     private String name;
