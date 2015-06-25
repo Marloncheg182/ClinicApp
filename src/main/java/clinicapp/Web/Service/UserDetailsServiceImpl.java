@@ -27,7 +27,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         status.add(new SimpleGrantedAuthority(WebUserStatus.USER.name()));
 
         UserDetails userDetails = new org.springframework.security.core.userdetails.User(user.getUserLogin(),
-                user.getUserPassord(),status);
+                user.getUserPassord(), status);
 
         return userDetails;
     }

@@ -20,7 +20,7 @@ public class WebAppConfiguration extends WebMvcConfigurerAdapter {
         registry.addResourceHandler("/pages/**").addResourceLocations("/pages/");
     }
 
-    public UrlBasedViewResolver setUpViwResolver(){
+    public UrlBasedViewResolver setUpViwResolver() {
         UrlBasedViewResolver resolver = new UrlBasedViewResolver();
         resolver.setPrefix("/pages");
         resolver.setSuffix(".jsp");
@@ -28,8 +28,9 @@ public class WebAppConfiguration extends WebMvcConfigurerAdapter {
 
         return resolver;
     }
+
     @Bean
-    public UserDetailsService getUserDetailsService(){
+    public UserDetailsService getUserDetailsService() {
         return new UserDetailsServiceImpl();
     }
 }

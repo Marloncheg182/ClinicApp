@@ -1,7 +1,6 @@
 package clinicapp.entity;
 
 
-
 import clinicapp.entity.patients.PatientState;
 import org.hibernate.annotations.GenericGenerator;
 

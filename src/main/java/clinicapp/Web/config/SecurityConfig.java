@@ -19,8 +19,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     private UserDetailsServiceImpl userDetailsService;
 
     @Autowired
-    public void registerGlobalAuthentication(AuthenticationManagerBuilder builder) throws Exception
-    {
+    public void registerGlobalAuthentication(AuthenticationManagerBuilder builder) throws Exception {
         builder.userDetailsService(userDetailsService).passwordEncoder(getSHAPasswordEncoder());
     }
 
@@ -51,7 +50,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .invalidateHttpSession(true);
     }
 
-    public ShaPasswordEncoder getSHAPasswordEncoder(){
+    public ShaPasswordEncoder getSHAPasswordEncoder() {
         return new ShaPasswordEncoder();
     }
 }

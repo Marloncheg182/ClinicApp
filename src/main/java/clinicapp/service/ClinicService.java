@@ -8,12 +8,16 @@ public interface ClinicService {
 
     // Create
     Clinic addClinic(Clinic clinic);
+
     // Read
     Clinic getByName(String name);
+
     // Read all
     List<Clinic> getAll();
+
     // Update
     Clinic editClinic(Clinic clinic);
+
     // Delete
     void delete(long id);
 }

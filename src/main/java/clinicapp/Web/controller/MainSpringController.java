@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class MainSpringController {
 
     @RequestMapping(method = RequestMethod.GET)
-    public String start(Model model){
+    public String start(Model model) {
         return "index";
     }
 }
