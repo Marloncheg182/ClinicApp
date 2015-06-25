@@ -1,0 +1,83 @@
+       Medical Administration Base
+...... property of Oleg Romanenchuk ......
+/////
+This is a simple web application for medical system, to provide some support for people, who work in
+medical structures e.g. clinics, hospitals, MD centres e.t.c.
+The main idea contains in a desire, to consolidate all aspects of administration work from different
+sides to one branch. I aspired to unite all in one registration structure.
+/////
+In file "Clinic schema.png" you can see a little BD structure between all tables.
+E.G. We have a general clinic table for registration of our clinic, using id like a primary number of clinic
+in registry. Name as clinic name, and we have a connection with tables Doctor (registry of doctors),
+Nurse (for nurses) and Patient. We also have this tables like separated tables. Each of this tables
+represented as class in entity package. Meanwhile i created some enumeration classes to take some
+choice in case of doctor position for example, rating as professional level e.t.c. It can be widen in future,
+but at current time it's limited by most popular positions of qualification, and actually there were a lot
+of profession, which i collided with, when tried to find some information about.
+This also about nurses. I also created an enum for Patient.State . Other tables are connected with general.
+You can look into picture or open clinic.uml , as you wish!
+All information about clinic can be found in clinic base. Meanwhile the main data fot patient will be in card base.
+I also planned to create a little web view for website with table view. Website uses login/logout
+visitors system. Now we can login as User with simple login "root" and password "root". I'll plan to
+create a guest visiting for guests, who won't see databases, but will be able to open an information page,
+about clinic, statistic, contact information e.t.c, and administration, who will be able to modify
+or customize the work of this system. I also want to give him a big permission in case of registering his
+clinic (i mean, this role must be given to Head Doctor). You can guess, that this is ridiculous for man,
+who haven't any deals with programming, but it's only an admin access, which can be used as a key for people,
+who support this project. Thank you for your attention!!!
+
+
+
+
+////////////
+Version 1.0
+1. Create a class, which will respond for creation of objects in database, that will be
+sent to database, using ORM.
+2. Create an applet for realization of creation those objects in databases, and
+can be extended , using CRUD system for all tables and columns. Find a way to collect all windows
+in one view (using swing or gwt, or something else.)
+3. Make the same, but fo web pages. PC local version must be in case, if we haven't connection to internet.
+Find a way to merge all changes.
+4. Run logs for db connections and object's creation. Using Log4j or Slf4j. log4j in priority.
+5. Write some DBunit tests for databases, and mock tests for general creation classes, to observe for
+creation and statement. To prevent the future problems.
+6. Create request/respond model for servlets, which will be used on server, to open database tables view.
+Can also use some jsp pages.
+7. Try to use RESTful web service in project. It may give some advantages for web-services in case of
+admin access to website. Also it's really a good way, to create some statistics of visitors, who uses
+this site at the same time.
+8. Deploy server GlassFish as recommend server for this project.
+////////////
+Version 1.1
+
+1. Using of Observer pattern, to make some connections between Doctor - Analyses, Procedures, Operation,
+State of Patient. In case of some statement changes, which can be modified in Card, Doctor must be an observer,
+to catch this changes. At the same time, it can be implemented for Doctor<Surgeon> in operation. When Surgeon
+doctor takes notification, that patient is ready to be operated. And nurses can get some requests from Doctor,
+to do analysis or procedures. Doctor must check the insurance of patient, before operation.
+////////////
+Version 1.2
+
+1. Create and organize the process, which will respond for notifications/ using email (mail/gmail protocols)
+and phone messages.
+2. Mail inbox letter must contain the whole list of patients, which are connected with this doctor.
+Their card, analysis, operations, procedures.
+It must be an information of a whole day. Perhaps it can help to Doctor, observe for his actions and changes.
+It also can be a little schedule for next day planning.
+3. Rewrite some structures, using complex of design patterns to wide some statement parts
+and DAO (spring data repository (in our case JPARepository inherited model).
+
+////////////
+Version 1.3
+1. Organize two archives.
+- healthy man
+- dead body
+
+Healthy man archive would be used in case, if our patient (supposedly) returned with new symptoms.
+Dead body archive can be used for transplantation or substituted to morgue system's archive.
+
+2. This a good practice to get rid of inactive tables in this time, but can be useful in future.
+3. Organize some JOIN optimizations in case, if we have too many of data. Some limits of Joins.
+
+
+©  Property of Oleg Romamenchuk  2015
