@@ -5,12 +5,10 @@ import clinicapp.entity.Clinic;
 import clinicapp.service.ClinicService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
 @Service
-@Transactional
 public class ClinicServiceImpl implements ClinicService {
 
     @Autowired
@@ -24,13 +22,13 @@ public class ClinicServiceImpl implements ClinicService {
     }
 
     @Override
-    public void delete(long id) {
-        clinicRepository.delete(id);
+    public Clinic getByName(String name) {
+        return clinicRepository.findByName(name);
     }
 
     @Override
-    public Clinic getByName(String name) {
-        return clinicRepository.findByName(name);
+    public List<Clinic> getAll() {
+        return clinicRepository.findAll();
     }
 
     @Override
@@ -39,8 +37,8 @@ public class ClinicServiceImpl implements ClinicService {
     }
 
     @Override
-    public List<Clinic> getAll() {
-        return clinicRepository.findAll();
+    public void delete(long id) {
+        clinicRepository.delete(id);
     }
 
 }
