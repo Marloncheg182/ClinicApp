@@ -9,7 +9,7 @@ public class UserServiceImpl implements UserService {
     public User getUser(String userLogin) {
         User user = new User();
         user.setUserLogin(userLogin);
-        user.setUserPassword("test");
+        user.setUserPassword("dc76e9f0c0006e8f919e0c515c66dbba3982f785"); // SHA1  "root"
         return user;
     }
 }

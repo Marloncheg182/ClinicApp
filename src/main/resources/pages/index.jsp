@@ -1,6 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://www.springframework.org/security/tags" prefix="sec" %>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -27,20 +28,35 @@
 <div class="container">
 
     <div class="jumbotron" style="margin-top: 20px;">
-        <h1>Devcolibri.com</h1>
-        <p class="lead">Devcolibri - это сервис предоставляющий всем желающим возможность обучаться программированию.</p>
+        <h1>Clinic Administration Database</h1>
+
+        <p class="lead">Clinic Administration Base is a specialized site for medical registration,
+            orientation in archived data, active patients and sequence of work between all subjects of this
+            system. We provide an easy way and economy of time in condition of work planning. This is a test
+            version 1.0 . Thank you for choosing us, good day and take care!</p>
         <sec:authorize access="!isAuthenticated()">
-            <p><a class="btn btn-lg btn-success" href="<c:url value="/login" />" role="button">Войти</a></p>
+            <p><a class="btn btn-lg btn-success" href="<c:url value="/login" />" role="button">Login</a></p>
+            <span style="float: right">
+                <a href="?lang=en">en</a>
+                <p><spring:message code="label.login"/></p>
+                <a href="lang=ru">ru</a>
+            </span>
         </sec:authorize>
         <sec:authorize access="isAuthenticated()">
-            <p>Ваш логин: <sec:authentication property="principal.username" /></p>
-            <p><a class="btn btn-lg btn-danger" href="<c:url value="/logout" />" role="button">Выйти</a></p>
+            <p>Please login:
+                <sec:authentication property="principal.username"/></p>
 
+            <p><a class="btn btn-lg btn-danger" href="<c:url value="/logout" />" role="button">Logout</a></p>
+            <span style="float: right">
+                <a href="?lang=en">en</a>
+                <p><spring:message code="label.logout"/></p>
+                <a href="lang=ru">ru</a>
+            </span>
         </sec:authorize>
     </div>
 
     <div class="footer">
-        <p>&copy; Devcolibri 2014</p>
+        <p>© property of Oleg Romanenchuk 2015</p>
     </div>
 
 </div>

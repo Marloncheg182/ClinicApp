@@ -22,7 +22,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
-        User user = userService.getUser("user");
+        User user = userService.getUser("test");
         Set<GrantedAuthority> status = new HashSet();
         status.add(new SimpleGrantedAuthority(WebUserStatus.USER.name()));
 
