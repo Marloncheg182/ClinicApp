@@ -5,7 +5,7 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Operation")
+@Table(name = "operation")
 public class Operation {
 
     @Id
