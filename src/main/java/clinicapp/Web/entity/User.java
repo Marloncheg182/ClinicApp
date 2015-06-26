@@ -3,11 +3,11 @@ package clinicapp.Web.entity;
 
 public class User {
     private String userLogin;
-    private String userPassord;
+    private String userPassword;
 
-    public User(String userLogin, String userPassord) {
+    public User(String userLogin, String userPassword) {
         this.userLogin = userLogin;
-        this.userPassord = userPassord;
+        this.userPassword = userPassword;
     }
 
     public User() {
@@ -21,11 +21,11 @@ public class User {
         this.userLogin = userLogin;
     }
 
-    public String getUserPassord() {
-        return userPassord;
+    public String getUserPassword() {
+        return userPassword;
     }
 
-    public void setUserPassord(String userPassord) {
-        this.userPassord = userPassord;
+    public void setUserPassword(String userPassword) {
+        this.userPassword = userPassword;
     }
 }

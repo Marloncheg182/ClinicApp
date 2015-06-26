@@ -1,7 +1,7 @@
 package clinicapp.Web.entity.type;
 
 public enum WebUserStatus {
-    ADMIN, USER, GUEST;
+    ADMIN, USER;
 
     WebUserStatus() {
     }

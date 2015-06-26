@@ -12,7 +12,7 @@ public interface ClinicRepository extends JpaRepository<Clinic, Long> {
 
     // Using of query for access to base in case, if we want to find a name
     @Query("select c from Clinic c where c.name = :name")
-    List<Clinic> findByName(@Param("name")String name);
+    Clinic findByName(@Param("name")String name);
 
 
 }

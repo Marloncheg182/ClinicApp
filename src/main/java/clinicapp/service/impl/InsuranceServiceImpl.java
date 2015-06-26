@@ -6,8 +6,10 @@ import clinicapp.entity.Insurance;
 import clinicapp.service.InsuranceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
+@Transactional
 public class InsuranceServiceImpl implements InsuranceService {
 
     @Autowired

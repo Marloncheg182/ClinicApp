@@ -9,7 +9,7 @@ public class UserServiceImpl implements UserService {
     public User getUser(String userLogin) {
         User user = new User();
         user.setUserLogin(userLogin);
-        user.setUserPassord("test");
+        user.setUserPassword("test");
         return user;
     }
 }

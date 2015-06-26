@@ -30,11 +30,11 @@
         <h1>Devcolibri.com</h1>
         <p class="lead">Devcolibri - это сервис предоставляющий всем желающим возможность обучаться программированию.</p>
         <sec:authorize access="!isAuthenticated()">
-            <p><a class="btn btn-lg btn-success" href="<c:url value="/login" />" role="button">Войти</a></p>
+            <p><a class="btn btn-lg btn-success" href="<c:url value="login.jsp" />" role="button">Войти</a></p>
         </sec:authorize>
         <sec:authorize access="isAuthenticated()">
             <p>Ваш логин: <sec:authentication property="principal.username" /></p>
-            <p><a class="btn btn-lg btn-danger" href="<c:url value="/logout" />" role="button">Выйти</a></p>
+            <p><a class="btn btn-lg btn-danger" href="<c:url value="index.jsp" />" role="button">Выйти</a></p>
 
         </sec:authorize>
     </div>

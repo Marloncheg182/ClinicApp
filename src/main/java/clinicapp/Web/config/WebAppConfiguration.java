@@ -11,15 +11,17 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.view.JstlView;
 import org.springframework.web.servlet.view.UrlBasedViewResolver;
 
-@Configuration
-@EnableWebMvc
-@ComponentScan("clinicapp")
+@Configuration    // Spring configuration
+@EnableWebMvc     // this class support Web MVC
+@ComponentScan("clinicapp.Web")    // set the path to configuration controllers entities
 public class WebAppConfiguration extends WebMvcConfigurerAdapter {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/pages/**").addResourceLocations("/pages/");
     }
 
+    // in this method we initialize the View of our web mapping
+    @Bean
     public UrlBasedViewResolver setUpViwResolver() {
         UrlBasedViewResolver resolver = new UrlBasedViewResolver();
         resolver.setPrefix("/pages");

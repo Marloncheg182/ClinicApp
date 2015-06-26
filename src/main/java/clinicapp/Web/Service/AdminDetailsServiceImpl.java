@@ -1,6 +1,7 @@
 package clinicapp.Web.Service;
 
-import clinicapp.Web.entity.User;
+
+import clinicapp.Web.entity.Admin;
 import clinicapp.Web.entity.type.WebUserStatus;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
@@ -13,22 +14,22 @@ import org.springframework.stereotype.Service;
 import java.util.HashSet;
 import java.util.Set;
 
-
 @Service
-public class UserDetailsServiceImpl implements UserDetailsService {
+public class AdminDetailsServiceImpl implements UserDetailsService {
 
-    @Autowired
-    private UserService userService;
+
+    private AdminService adminService;
 
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
-        User user = userService.getUser("user");
+        Admin admin = adminService.getAdmin("admin");
         Set<GrantedAuthority> status = new HashSet();
-        status.add(new SimpleGrantedAuthority(WebUserStatus.USER.name()));
+        status.add(new SimpleGrantedAuthority(WebUserStatus.ADMIN.name()));
 
-        UserDetails userDetails = new org.springframework.security.core.userdetails.User(user.getUserLogin(),
-                user.getUserPassword(), status);
+        UserDetails userDetails = new org.springframework.security.core.userdetails.User(admin.getAdminLogin(),
+                admin.getAdminPassword(), status);
 
         return userDetails;
+
     }
 }

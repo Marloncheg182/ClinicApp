@@ -20,7 +20,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     public void registerGlobalAuthentication(AuthenticationManagerBuilder builder) throws Exception {
-        builder.userDetailsService(userDetailsService).passwordEncoder(getSHAPasswordEncoder());
+
+        builder
+                 .userDetailsService(userDetailsService).passwordEncoder(getSHAPasswordEncoder());
+
     }
 
 
@@ -46,7 +49,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.logout()
                 .permitAll()
                 .logoutUrl("/logout")
-                .logoutSuccessUrl("login?logout")
+                .logoutSuccessUrl("/login?logout")
                 .invalidateHttpSession(true);
     }
 
