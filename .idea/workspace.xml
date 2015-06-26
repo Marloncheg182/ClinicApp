@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebc3dce0-b78e-430e-8226-2365486fe4ca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Web/Service/AdminServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Web/Service/AdminServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Web/Service/UserDetailsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Web/Service/UserDetailsServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Web/Service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Web/Service/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/pages/index.jsp" afterPath="$PROJECT_DIR$/src/main/resources/pages/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/pages/login.jsp" afterPath="$PROJECT_DIR$/src/main/resources/pages/login.jsp" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\.idea\libraries\Maven__org_springframework_spring_jdbc_4_0_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\.idea\libraries\Maven__org_springframework_spring_orm_4_0_9_RELEASE.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClinicProject.iml" afterPath="$PROJECT_DIR$/ClinicProject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ClinicProject_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ClinicProject_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\.idea\libraries\Maven__org_springframework_spring_tx_4_0_9_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_6_RELEASE.xml" />
     </list>
     <ignored path="ClinicProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,11 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/clinicapp/Web/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5282392">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.50830567">
+              <caret line="134" column="21" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -107,7 +119,6 @@
         <option value="$PROJECT_DIR$/src/main/java/clinicapp/config/AppInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/clinicapp/Web/config/Initializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/clinicapp/Web/config/SpringWebMVCInitializer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/clinicapp/service/impl/AnalysisServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/clinicapp/service/impl/CardServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/clinicapp/service/impl/DoctorServiceImpl.java" />
@@ -139,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/main/java/clinicapp/Web/Service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/clinicapp/Web/Service/AdminServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/clinicapp/Web/Service/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -194,8 +206,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="172" />
-    <option name="y" value="35" />
+    <option name="x" value="318" />
+    <option name="y" value="53" />
     <option name="width" value="1054" />
     <option name="height" value="618" />
   </component>
@@ -954,16 +966,16 @@
       <updated>1435165756508</updated>
       <workItem from="1435165762443" duration="15508000" />
       <workItem from="1435240089145" duration="26058000" />
-      <workItem from="1435341784009" duration="15976000" />
+      <workItem from="1435341784009" duration="17232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57542000" />
+    <option name="totallyTimeSpent" value="58798000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="172" y="35" width="1054" height="618" extended-state="0" />
-    <editor active="true" />
+    <frame x="318" y="53" width="1054" height="618" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5030257" order="2" side_tool="true" content_ui="tabs" />
@@ -986,7 +998,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3339921" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264887" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32443532" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32443532" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23239437" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1098,14 +1110,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="109" column="20" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1272,7 +1276,7 @@
         <state vertical-scroll-proportion="0.43913043">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1313,9 +1317,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5543478">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1448,8 +1450,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/clinicapp/Web/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5282392">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.50830567">
+          <caret line="134" column="21" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
           <folding />
         </state>
       </provider>
