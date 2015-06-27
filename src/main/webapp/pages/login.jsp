@@ -12,7 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Spring Security</title>
+    <title><spring:message code="label.title" /></title>
 
     <!-- Bootstrap core CSS -->
     <link href="<c:url value="/pages/css/bootstrap.css" />" rel="stylesheet">
@@ -20,45 +20,55 @@
     <!-- Custom style -->
     <link href="<c:url value="/pages/css/jumbotron-narrow.css" />" rel="stylesheet">
 
-
 </head>
-
 <body>
+<form>
+
+<a href="<c:url value="index.jsp" /> " />
+     <spring:message code="label.redirection" />
+</a></br>
+
+<c:if test="${not empty param.error}">
+    <span style="color: #8b0000; "><spring:message code="label.loginerror" />
+    : ${sessionScope["SPRING_SECURITY_LAST_EXCEPTION"].message}
+    </span>
+</c:if>
+
+<form method="post" action="<c:url value="/j_spring_security_check" />" />
+<table>
+    <tr>
+        <td align="right"><spring:message code="label.login"/></td>
+        <td><input type="text" name="j_username" /></td>
+    </tr>
+    <tr>
+        <td align="right"><spring:message code="label.password"/></td>
+        <td><input type="password" name="j_password" /></td>
+    </tr>
+    <tr>
+        <td align="right"><spring:message code="label.remember"/></td>
+        <td><input type="checkbox" name="_spring_security_remember_me"/></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="right"><input type="submit"
+                value="Login" />
+            <input type="reset" value="Reset"/></td>
+    </tr>
+</table>
+</form>
 
 <div class="container">
-
     <div class="jumbotron" style="margin-top: 20px;">
         <h1>Clinic Administration Database</h1>
-
         <p class="lead">Clinic Administration Base is a specialized site for medical registration,
             orientation in archived data, active patients and sequence of work between all subjects of this
             system. We provide an easy way and economy of time in condition of work planning. This is a test
             version 1.0 . Thank you for choosing us, good day and take care!</p>
-        <sec:authorize access="!isAuthenticated()">
-            <p><a class="btn btn-lg btn-success" href="<c:url value="/login" />" role="button">Login</a></p>
-            <span style="float: right">
-                <a href="?lang=en">en</a>
-                <p><spring:message code="label.login"/></p>
-                <a href="lang=ru">ru</a>
-            </span>
-        </sec:authorize>
-        <sec:authorize access="isAuthenticated()">
-            <p>Please login:
-                <sec:authentication property="principal.username"/></p>
 
-            <p><a class="btn btn-lg btn-danger" href="<c:url value="/logout" />" role="button">Logout</a></p>
-            <span style="float: right">
-                <a href="?lang=en">en</a>
-                <p><spring:message code="label.logout"/></p>
-                <a href="lang=ru">ru</a>
-            </span>
-        </sec:authorize>
     </div>
 
     <div class="footer">
         <p>© property of Oleg Romanenchuk 2015</p>
     </div>
-
 </div>
 </body>
 </html>
