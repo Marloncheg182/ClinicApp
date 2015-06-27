@@ -33,6 +33,7 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="CLINIC" value="58e99121-832f-46ec-a5a4-61b044821adf" />
+          <factory-entry name="entityManagerFactory" value="dataSource" />
           <factory-entry name="noname-persistence.xml@351" />
         </datasource-mapping>
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
