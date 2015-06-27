@@ -27,6 +27,13 @@
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/spring-config.xml</file>
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/spring-config.xml</file>
         </fileset>
+        <fileset id="fileset2" name="Spring Application Context (2)" removed="false">
+          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/servlets/servlet-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/clinicapp/config/DataBeanConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/clinicapp/Web/config/SecurityConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/clinicapp/Web/config/WebAppConfiguration.java</file>
+        </fileset>
       </configuration>
     </facet>
     <facet type="jpa" name="JPA">
