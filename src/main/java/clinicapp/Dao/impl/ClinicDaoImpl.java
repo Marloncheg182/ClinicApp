@@ -18,8 +18,8 @@ public class ClinicDaoImpl implements ClinicDAO {
     }
 
     @Override
-    public String getName(String name) {
-        return sessionFactory.getCurrentSession().createQuery("select * from Clinic where");
+    public String getName() {
+        return sessionFactory.getCurrentSession().createQuery("select name from Clinic where name = :name").getQueryString();
     }
 
     @Override
@@ -28,12 +28,16 @@ public class ClinicDaoImpl implements ClinicDAO {
     }
 
     @Override
-    public Clinic update(Clinic clinic) {
-        return null;
+    public void update(Clinic clinic) {
+        sessionFactory.getCurrentSession().save(clinic);
     }
 
     @Override
     public void delete(Integer id) {
-
+        Clinic clinic = (Clinic)sessionFactory.getCurrentSession().load(
+                Clinic.class, id);
+        if (null != clinic){
+            sessionFactory.getCurrentSession().delete(clinic);
+        }
     }
 }
