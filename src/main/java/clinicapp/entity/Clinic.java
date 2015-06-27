@@ -12,7 +12,7 @@ public class Clinic {
     @GeneratedValue(generator = "increment", strategy = GenerationType.AUTO)
     @GenericGenerator(name = "increment", strategy = "increment")
     @Column(name = "id", length = 6, nullable = false)
-    private  long id;
+    private  int id;
 
     @Column(name = "name")
     private String name;
@@ -28,7 +28,7 @@ public class Clinic {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
