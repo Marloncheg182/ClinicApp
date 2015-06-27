@@ -21,7 +21,7 @@ public class OperationDaoImpl implements OperationDAO {
     }
 
     @Override
-    public int getById(long id) {
+    public int getById() {
         return sessionFactory.getCurrentSession().createSQLQuery("SELECT * FROM operation WHERE operation.id = id").getFirstResult();
     }
 

@@ -25,17 +25,17 @@ public class ClinicServiceImpl implements ClinicService{
         return clinicDAO.getName();
     }
 
-    @Override
+    @Transactional
     public List<Clinic> getAll() {
         return clinicDAO.getAll();
     }
 
-    @Override
+    @Transactional
     public void update(Clinic clinic) {
          clinicDAO.update(clinic);
     }
 
-    @Override
+    @Transactional
     public void delete(Integer id) {
          clinicDAO.delete(id);
     }

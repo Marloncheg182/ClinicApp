@@ -1,11 +1,11 @@
-package clinicapp.Dao;
+package clinicapp.Dao.Service;
 
 
 import clinicapp.entity.Operation;
 
 import java.util.List;
 
-public interface OperationDAO {
+public interface OperationService {
     // create an object data
     void create(Operation operation);
 
