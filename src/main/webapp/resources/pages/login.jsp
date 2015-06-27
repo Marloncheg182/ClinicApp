@@ -10,21 +10,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Oleg Romanenchuk">
 
     <title><spring:message code="label.title" /></title>
 
     <!-- Bootstrap core CSS -->
-    <link href="<c:url value="/pages/css/bootstrap.css" />" rel="stylesheet">
+    <link href="<c:url value="/resources/pages/css/bootstrap.css" />" rel="stylesheet">
 
     <!-- Custom style -->
-    <link href="<c:url value="/pages/css/jumbotron-narrow.css" />" rel="stylesheet">
+    <link href="<c:url value="/resources/pages/css/jumbotron-narrow.css" />" rel="stylesheet">
 
 </head>
 <body>
 <form>
 
-<a href="<c:url value="index.jsp" /> " />
+<a href="<c:url value="../../WEB-INF/view/index.jsp" /> " />
      <spring:message code="label.redirection" />
 </a></br>
 
