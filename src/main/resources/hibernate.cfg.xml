@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+      <mapping class="clinicapp.entity.Clinic"/>
+      <mapping class="clinicapp.entity.Doctor"/>
+      <mapping class="clinicapp.entity.Nurse"/>
+      <mapping class="clinicapp.entity.Patient"/>
+      <mapping class="clinicapp.entity.Card"/>
+      <mapping class="clinicapp.entity.Analysis"/>
+      <mapping class="clinicapp.entity.Operation"/>
+      <mapping class="clinicapp.entity.Procedure"/>
+      <mapping class="clinicapp.entity.Insurance"/>
+  </session-factory>
+</hibernate-configuration>

@@ -25,7 +25,7 @@ import java.util.Properties;
 public class DataBeanConfig {
 
     private static final String PROP_DATABASE_DRIVER = "com.mysql.jdbc.Driver";
-    private static final String PROP_DATABASE_URL = "jdbc:mysql://localhost:3306/workspace";
+    private static final String PROP_DATABASE_URL = "jdbc:mysql://localhost:33033/workspace";
     private static final String PROP_DATABASE_USERNAME = "root";
     private static final String PROP_DATABASE_PASSWORD = "root";
     private static final String PROP_HIBERNATE_DIALECT = "org.hibernate.dialect.MySQLDialect";

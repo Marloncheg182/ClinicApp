@@ -19,7 +19,7 @@ public class Insurance {
     private int bankAccount;
 
     // creating of relations between Insurance table and Card.
-    @ManyToOne(fetch = FetchType.LAZY, cascade = {CascadeType.MERGE, CascadeType.PERSIST})
+    @OneToOne(optional = false, targetEntity = Card.class)
     @JoinColumn(name = "clinic_id", nullable = false)
     private Card card;
 

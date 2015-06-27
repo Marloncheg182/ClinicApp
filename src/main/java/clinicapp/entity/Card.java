@@ -4,6 +4,7 @@ package clinicapp.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.util.Collection;
 
 @Entity
 @Table(name = "card")
@@ -34,8 +35,8 @@ public class Card {
     private String additionalNotes;
 
     // creating of relations between Card table and Patient.
-    @ManyToOne(fetch = FetchType.LAZY, cascade = {CascadeType.MERGE, CascadeType.PERSIST})
-    @JoinColumn(name = "patient_id", nullable = false)
+    @OneToOne(optional = false, targetEntity = Patient.class)
+    @JoinColumn(name = "patient_id", referencedColumnName = "id", nullable = false)
     private Patient patient;
 
     public Card() {
@@ -113,6 +114,17 @@ public class Card {
 
     public void setPatient(Patient patient) {
         this.patient = patient;
+    }
+
+    @OneToMany(mappedBy = "card")
+    private Collection<Procedure> procedure;
+
+    public Collection<Procedure> getProcedure() {
+        return procedure;
+    }
+
+    public void setProcedure(Collection<Procedure> procedure) {
+        this.procedure = procedure;
     }
 }
 
