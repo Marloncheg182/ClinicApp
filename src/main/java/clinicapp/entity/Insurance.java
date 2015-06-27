@@ -20,7 +20,7 @@ public class Insurance {
 
     // creating of relations between Insurance table and Card.
     @OneToOne(optional = false, targetEntity = Card.class)
-    @JoinColumn(name = "clinic_id", nullable = false)
+    @JoinColumn(name = "card_id", nullable = false)
     private Card card;
 
     public Insurance() {
