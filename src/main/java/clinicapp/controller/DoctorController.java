@@ -66,7 +66,7 @@ public class DoctorController {
     }
 
     @RequestMapping(value = "/update", method = RequestMethod.POST)
-    public String update(@ModelAttribute("clinic") Doctor doctor, BindingResult result) {
+    public String update(@ModelAttribute("doctor") Doctor doctor, BindingResult result) {
 
         doctorService.update(doctor);
 
