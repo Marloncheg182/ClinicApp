@@ -6,11 +6,14 @@ import clinicapp.entity.Analysis;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.apache.log4j.Logger;
 
 import java.util.List;
 
 @Repository
 public class AnalysisDaoImpl implements AnalysisDAO {
+
+    public static final Logger LOGGER = Logger.getLogger(AnalysisDaoImpl.class);
 
     @Autowired
     private SessionFactory sessionFactory;
@@ -46,6 +49,8 @@ public class AnalysisDaoImpl implements AnalysisDAO {
                 Analysis.class, id);
         if (null != analysis) {
             sessionFactory.getCurrentSession().delete(analysis);
+
         }
+        else LOGGER.error("Empty data by id");
     }
 }

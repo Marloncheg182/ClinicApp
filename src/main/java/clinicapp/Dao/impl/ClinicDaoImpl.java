@@ -2,6 +2,7 @@ package clinicapp.Dao.impl;
 
 import clinicapp.Dao.ClinicDAO;
 import clinicapp.entity.Clinic;
+import org.apache.log4j.Logger;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -11,6 +12,8 @@ import java.util.List;
 
 @Repository
 public class ClinicDaoImpl implements ClinicDAO {
+
+    public static final Logger LOGGER = Logger.getLogger(ClinicDaoImpl.class);
 
     @Autowired
     private SessionFactory sessionFactory;
@@ -42,5 +45,6 @@ public class ClinicDaoImpl implements ClinicDAO {
         if (null != clinic) {
             sessionFactory.getCurrentSession().delete(clinic);
         }
+        else LOGGER.error("Nothing to delete");
     }
 }

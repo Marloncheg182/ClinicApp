@@ -3,6 +3,7 @@ package clinicapp.Dao.impl;
 
 import clinicapp.Dao.InsuranceDAO;
 import clinicapp.entity.Insurance;
+import org.apache.log4j.Logger;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -11,6 +12,8 @@ import java.util.List;
 
 @Repository
 public class InsuranceDaoImpl implements InsuranceDAO {
+
+    public static final Logger LOGGER = Logger.getLogger(InsuranceDaoImpl.class);
 
     @Autowired
     private SessionFactory sessionFactory;
@@ -42,6 +45,8 @@ public class InsuranceDaoImpl implements InsuranceDAO {
         if (null != insurance) {
             sessionFactory.getCurrentSession().delete(insurance);
         }
+
+        else LOGGER.error("Nothing to delete");
     }
 
 }
