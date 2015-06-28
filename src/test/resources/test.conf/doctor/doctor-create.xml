@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <doctor id="1" first_name="Gregory" last_name="House" age="45" position="DoctorPosition.THERAPIST" phone_number="" rating="HEAD"/>
+    <doctor id="2" first_name="Shamus" last_name="Hartfild" age="25" position="DoctorPosition.LABORATOR" phone_number="" rating="INTERNEE"/>
+    <doctor id="3" first_name="Debra" last_name="Wild" age="32" position="DoctorPosition.SURGEON" phone_number="" rating="SENIOR"/>
+</dataset>

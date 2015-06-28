@@ -52,11 +52,11 @@ public class ClinicServiceImplTest extends DBUnitConfig {
         Clinic clinic = new Clinic();
         clinic.setName("Pringston-Plaintsboro");
 
-        clinicService.update(clinic);
+        clinicService.create(clinic);
 
         IDataSet expectedData = new FlatXmlDataSetBuilder().build(
                 Thread.currentThread().getContextClassLoader()
-                        .getResourceAsStream("test.conf/clinic/clinic-crete.xml"));
+                        .getResourceAsStream("test.conf/clinic/clinic-create.xml"));
         IDataSet actualData = tester.getConnection().createDataSet();
 
         String[] ignore = {"id"};
