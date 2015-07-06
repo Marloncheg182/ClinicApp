@@ -46,7 +46,7 @@ public class AnalysisServiceImplTest extends DBUnitConfig {
 
         IDataSet expectedData = new FlatXmlDataSetBuilder().build(
                 Thread.currentThread().getContextClassLoader()
-                        .getResourceAsStream("test.conf/clinic/clinic-create.xml"));
+                        .getResourceAsStream("test.conf/analysis/analysis-create.xml"));
         IDataSet actualData = tester.getConnection().createDataSet();
 
         String[] ignore = {"id"};
@@ -55,13 +55,13 @@ public class AnalysisServiceImplTest extends DBUnitConfig {
 
     @Test
     public void testGetAll() throws Exception {
-        List<Analysis> analysises = analysisService.getAll();
+        List<Analysis> clinics = analysisService.getAll();
 
         IDataSet expectedData = new FlatXmlDataSetBuilder().build(
                 Thread.currentThread().getContextClassLoader()
                         .getResourceAsStream("test.conf/analysis/analysis-data.xml"));
         IDataSet actualData = tester.getConnection().createDataSet();
         Assertion.assertEquals(expectedData, actualData);
-        Assert.assertEquals(expectedData.getTable("analysis").getRowCount(), analysises.size());
+        Assert.assertEquals(expectedData.getTable("analysis").getRowCount(), clinics.size());
     }
 }

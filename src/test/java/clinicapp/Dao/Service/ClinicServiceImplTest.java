@@ -52,7 +52,7 @@ public class ClinicServiceImplTest extends DBUnitConfig {
         Clinic clinic = new Clinic();
         clinic.setName("Pringston-Plaintsboro");
 
-        clinicService.create(clinic);
+        clinicService.update(clinic);
 
         IDataSet expectedData = new FlatXmlDataSetBuilder().build(
                 Thread.currentThread().getContextClassLoader()
