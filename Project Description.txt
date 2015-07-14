@@ -27,7 +27,8 @@ who haven't any deals with programming, but it's only an admin access, which can
 who support this project. Thank you for your attention!!!
 
 
-
+Updated on 15.07.2015
+DAO will be substituted on Spring Data and JPA Repository 
 
 ////////////
 Version 1.0
