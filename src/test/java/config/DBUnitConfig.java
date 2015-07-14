@@ -51,4 +51,5 @@ public class DBUnitConfig extends DBTestCase {
     protected DatabaseOperation getTearDownOperation() throws Exception {
         return DatabaseOperation.DELETE_ALL;
     }
+
 }

@@ -8,7 +8,7 @@ import java.util.List;
  * @author Oleg Romanenchuk
  * Card Service
  */
-public interface CardSerivce {
+public interface CardService {
 
     Card create(Card card);
 

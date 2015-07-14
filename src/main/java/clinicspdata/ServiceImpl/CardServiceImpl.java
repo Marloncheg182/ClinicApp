@@ -2,7 +2,7 @@ package clinicspdata.serviceimpl;
 
 import clinicapp.entity.Card;
 import clinicspdata.repositories.CardRepository;
-import clinicspdata.services.CardSerivce;
+import clinicspdata.services.CardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +14,7 @@ import java.util.List;
  */
 
 @Service
-public class CardServiceImpl implements CardSerivce {
+public class CardServiceImpl implements CardService {
 
     @Autowired
     private CardRepository cardRepository;   // Card repository included
