@@ -4,6 +4,14 @@
     "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
   <session-factory>
+      <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+      <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+      <property name="hibernate.connection.url">jdbc:mysql://localhost:33033/workspace</property>
+      <property name="hibernate.connection.password">root</property>
+      <property name="hibernate.connection.username">root</property>
+      <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+      <property name="show_sql">true</property>
+
       <mapping class="clinicapp.entity.Clinic"/>
       <mapping class="clinicapp.entity.Doctor"/>
       <mapping class="clinicapp.entity.Nurse"/>

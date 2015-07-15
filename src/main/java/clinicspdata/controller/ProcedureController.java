@@ -1,7 +1,7 @@
 package clinicspdata.controller;
 
-import clinicapp.entity.Analysis;
-import clinicspdata.services.AnalysisService;
+import clinicapp.entity.Procedure;
+import clinicspdata.services.ProcedureService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -11,17 +11,16 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * @author Oleg Romanenchuk
  */
-
 @Controller
-public class AnalysisController {
+public class ProcedureController {
 
     @Autowired
-    private AnalysisService analysisService;
+    private ProcedureService procedureService;
 
     @RequestMapping(value = "/create", method = RequestMethod.POST)
-    public String create(@ModelAttribute("analysis")Analysis analysis){
+    public String create(@ModelAttribute("procedure") Procedure procedure) {
 
-        analysisService.create(analysis);
+        procedureService.create(procedure);
 
         return "redirect:/index";
     }
@@ -32,40 +31,40 @@ public class AnalysisController {
     }
 
     @RequestMapping(value = "/getId", method = RequestMethod.GET)
-    public String getById(Long id){
+    public String getById(Long id) {
 
-        analysisService.getById(id);
+        procedureService.getById(id);
 
         return "redirect:/index";
     }
 
     @RequestMapping(value = "/getDate", method = RequestMethod.GET)
-    public String getByDate(String date){
+    public String getByDate(String date) {
 
-        analysisService.getByDate(date);
+        procedureService.getByDate(date);
 
         return "redirect:/index";
     }
 
     @RequestMapping(value = "/getAll", method = RequestMethod.GET)
-    public String getAll(){
+    public String getAll() {
 
-        analysisService.getAll();
+        procedureService.getAll();
 
         return "redirect:/index";
     }
 
     @RequestMapping(value = "/update", method = RequestMethod.POST)
-    public String update(Analysis analysis){
+    public String update(Procedure procedure) {
 
-        analysisService.update(analysis);
+        procedureService.update(procedure);
 
         return "redirect:/index";
     }
 
-    @RequestMapping("/delete/{analysisId}")
-    public String delete(Long id){
-        analysisService.delete(id);
+    @RequestMapping("/delete/{procedureId}")
+    public String delete(Long id) {
+        procedureService.delete(id);
 
         return "redirect:/index";
     }

@@ -1,6 +1,7 @@
 package clinicspdata.repositories;
 
 import clinicapp.entity.Doctor;
+import clinicapp.entity.doctors.DoctorPosition;
 import clinicapp.entity.doctors.Rating;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -22,7 +23,7 @@ public interface DoctorRepository extends JpaRepository<Doctor, Long> {
     Doctor findByAge(@Param("age")Integer age);
 
     @Query("select d from Doctor d where d.position =:position")
-    Doctor findByPosition(@Param("position")String position);
+    Doctor findByPosition(@Param("position")DoctorPosition position);
 
     @Query("select d from Doctor d where d.rating =:rating")
     Doctor findByRating(@Param("rating")Rating rating);

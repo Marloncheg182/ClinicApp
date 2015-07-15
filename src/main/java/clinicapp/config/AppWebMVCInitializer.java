@@ -1,6 +1,6 @@
 package clinicapp.config;
 
-import org.springframework.web.WebApplicationInitializer;
+
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 import javax.servlet.ServletContext;

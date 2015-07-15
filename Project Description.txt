@@ -28,7 +28,7 @@ who support this project. Thank you for your attention!!!
 
 
 Updated on 15.07.2015
-DAO will be substituted on Spring Data and JPA Repository 
+DAO will be substituted on Spring Data and JPA Repository
 
 ////////////
 Version 1.0

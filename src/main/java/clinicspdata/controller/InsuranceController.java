@@ -1,7 +1,7 @@
 package clinicspdata.controller;
 
-import clinicapp.entity.Analysis;
-import clinicspdata.services.AnalysisService;
+import clinicapp.entity.Insurance;
+import clinicspdata.services.InsuranceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -11,19 +11,19 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * @author Oleg Romanenchuk
  */
-
 @Controller
-public class AnalysisController {
+public class InsuranceController {
 
     @Autowired
-    private AnalysisService analysisService;
+    private InsuranceService insuranceService;
 
     @RequestMapping(value = "/create", method = RequestMethod.POST)
-    public String create(@ModelAttribute("analysis")Analysis analysis){
+    public String create(@ModelAttribute("insurance")Insurance insurance ){
 
-        analysisService.create(analysis);
+        insuranceService.create(insurance);
 
         return "redirect:/index";
+
     }
 
     @RequestMapping("/")
@@ -31,18 +31,12 @@ public class AnalysisController {
         return "redirect:/index";
     }
 
+
+
     @RequestMapping(value = "/getId", method = RequestMethod.GET)
     public String getById(Long id){
 
-        analysisService.getById(id);
-
-        return "redirect:/index";
-    }
-
-    @RequestMapping(value = "/getDate", method = RequestMethod.GET)
-    public String getByDate(String date){
-
-        analysisService.getByDate(date);
+        insuranceService.getById(id);
 
         return "redirect:/index";
     }
@@ -50,23 +44,28 @@ public class AnalysisController {
     @RequestMapping(value = "/getAll", method = RequestMethod.GET)
     public String getAll(){
 
-        analysisService.getAll();
+        insuranceService.getAll();
 
         return "redirect:/index";
     }
 
     @RequestMapping(value = "/update", method = RequestMethod.POST)
-    public String update(Analysis analysis){
+    public String update(Insurance insurance){
 
-        analysisService.update(analysis);
+        insuranceService.update(insurance);
 
         return "redirect:/index";
     }
 
-    @RequestMapping("/delete/{analysisId}")
+    @RequestMapping("/delete/{insuranceId}")
     public String delete(Long id){
-        analysisService.delete(id);
+        insuranceService.delete(id);
 
         return "redirect:/index";
     }
+
+
 }
+
+
+

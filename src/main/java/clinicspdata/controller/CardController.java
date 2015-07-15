@@ -1,29 +1,30 @@
 package clinicspdata.controller;
 
-import clinicapp.entity.Analysis;
-import clinicspdata.services.AnalysisService;
+import clinicapp.entity.Card;
+import clinicspdata.services.CardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+
 /**
  * @author Oleg Romanenchuk
  */
-
 @Controller
-public class AnalysisController {
+public class CardController {
 
     @Autowired
-    private AnalysisService analysisService;
+    private CardService cardService;
 
     @RequestMapping(value = "/create", method = RequestMethod.POST)
-    public String create(@ModelAttribute("analysis")Analysis analysis){
+    public String create(@ModelAttribute("card") Card card){
 
-        analysisService.create(analysis);
+        cardService.create(card);
 
         return "redirect:/index";
+
     }
 
     @RequestMapping("/")
@@ -31,18 +32,30 @@ public class AnalysisController {
         return "redirect:/index";
     }
 
+
+
     @RequestMapping(value = "/getId", method = RequestMethod.GET)
     public String getById(Long id){
 
-        analysisService.getById(id);
+        cardService.getById(id);
 
         return "redirect:/index";
     }
 
-    @RequestMapping(value = "/getDate", method = RequestMethod.GET)
-    public String getByDate(String date){
 
-        analysisService.getByDate(date);
+    @RequestMapping(value = "/getByLastName", method = RequestMethod.GET)
+    public String getByLastName(String lastName){
+
+       cardService.getByLastName(lastName);
+
+        return "redirect:/index";
+    }
+
+
+    @RequestMapping(value = "/getBirthDate", method = RequestMethod.GET)
+    public String getByBirthDate(String birthDate){
+
+        cardService.getByBirthDate(birthDate);
 
         return "redirect:/index";
     }
@@ -50,22 +63,22 @@ public class AnalysisController {
     @RequestMapping(value = "/getAll", method = RequestMethod.GET)
     public String getAll(){
 
-        analysisService.getAll();
+        cardService.getAll();
 
         return "redirect:/index";
     }
 
     @RequestMapping(value = "/update", method = RequestMethod.POST)
-    public String update(Analysis analysis){
+    public String update(Card card){
 
-        analysisService.update(analysis);
+        cardService.update(card);
 
         return "redirect:/index";
     }
 
-    @RequestMapping("/delete/{analysisId}")
+    @RequestMapping("/delete/{cardId}")
     public String delete(Long id){
-        analysisService.delete(id);
+        cardService.delete(id);
 
         return "redirect:/index";
     }

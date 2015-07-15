@@ -1,6 +1,7 @@
 package clinicspdata.services;
 
 import clinicapp.entity.Nurse;
+import clinicapp.entity.nurses.NursePosition;
 
 import java.util.List;
 
@@ -18,7 +19,7 @@ public interface NurseService {
 
     Nurse getByAge(Integer age);
 
-    Nurse getByPosition(String position);
+    Nurse getByPosition(NursePosition position);
 
     List<Nurse> getAll();
 

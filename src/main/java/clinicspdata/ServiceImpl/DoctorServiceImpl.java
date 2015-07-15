@@ -1,6 +1,7 @@
 package clinicspdata.serviceimpl;
 
 import clinicapp.entity.Doctor;
+import clinicapp.entity.doctors.DoctorPosition;
 import clinicapp.entity.doctors.Rating;
 import clinicspdata.repositories.DoctorRepository;
 import clinicspdata.services.DoctorService;
@@ -40,7 +41,7 @@ public class DoctorServiceImpl implements DoctorService {
     }
 
     @Override
-    public Doctor getByPosition(String position) {
+    public Doctor getByPosition(DoctorPosition position) {
         return this.doctorRepository.findByPosition(position);
     }
 

@@ -1,29 +1,32 @@
 package clinicspdata.controller;
 
-import clinicapp.entity.Analysis;
-import clinicspdata.services.AnalysisService;
+import clinicapp.entity.Clinic;
+import clinicspdata.services.ClinicService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import java.util.List;
+
 /**
  * @author Oleg Romanenchuk
  */
 
 @Controller
-public class AnalysisController {
+public class ClinicController {
 
     @Autowired
-    private AnalysisService analysisService;
+    private ClinicService clinicService;
 
     @RequestMapping(value = "/create", method = RequestMethod.POST)
-    public String create(@ModelAttribute("analysis")Analysis analysis){
+    public String create(@ModelAttribute("clinic") Clinic clinic){
 
-        analysisService.create(analysis);
+        clinicService.create(clinic);
 
         return "redirect:/index";
+
     }
 
     @RequestMapping("/")
@@ -31,18 +34,20 @@ public class AnalysisController {
         return "redirect:/index";
     }
 
+
+
     @RequestMapping(value = "/getId", method = RequestMethod.GET)
     public String getById(Long id){
 
-        analysisService.getById(id);
+        clinicService.getById(id);
 
         return "redirect:/index";
     }
 
-    @RequestMapping(value = "/getDate", method = RequestMethod.GET)
-    public String getByDate(String date){
+    @RequestMapping(value = "/getByName", method = RequestMethod.GET)
+    public String getByName(String name){
 
-        analysisService.getByDate(date);
+        clinicService.getByName(name);
 
         return "redirect:/index";
     }
@@ -50,23 +55,24 @@ public class AnalysisController {
     @RequestMapping(value = "/getAll", method = RequestMethod.GET)
     public String getAll(){
 
-        analysisService.getAll();
+        clinicService.getAll();
 
         return "redirect:/index";
     }
 
     @RequestMapping(value = "/update", method = RequestMethod.POST)
-    public String update(Analysis analysis){
+    public String update(Clinic clinic){
 
-        analysisService.update(analysis);
+        clinicService.update(clinic);
 
         return "redirect:/index";
     }
 
-    @RequestMapping("/delete/{analysisId}")
+    @RequestMapping("/delete/{clinicId}")
     public String delete(Long id){
-        analysisService.delete(id);
+        clinicService.delete(id);
 
         return "redirect:/index";
     }
+
 }

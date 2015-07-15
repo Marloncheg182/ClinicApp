@@ -1,6 +1,7 @@
 package clinicspdata.serviceimpl;
 
 import clinicapp.entity.Nurse;
+import clinicapp.entity.nurses.NursePosition;
 import clinicspdata.repositories.NurseRepository;
 import clinicspdata.services.NurseService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,7 +40,7 @@ public class NurseServiceImpl implements NurseService {
     }
 
     @Override
-    public Nurse getByPosition(String position) {
+    public Nurse getByPosition(NursePosition position) {
         return this.nurseRepository.findByPosition(position);
     }
 

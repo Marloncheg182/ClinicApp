@@ -1,6 +1,7 @@
 package clinicspdata.services;
 
 import clinicapp.entity.Doctor;
+import clinicapp.entity.doctors.DoctorPosition;
 import clinicapp.entity.doctors.Rating;
 
 
@@ -20,7 +21,7 @@ public interface DoctorService {
 
     Doctor getByAge(Integer age);
 
-    Doctor getByPosition(String position);
+    Doctor getByPosition(DoctorPosition position);
 
     Doctor getByRating(Rating rating);
 

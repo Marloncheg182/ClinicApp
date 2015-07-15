@@ -1,6 +1,7 @@
 package clinicspdata.repositories;
 
 import clinicapp.entity.Nurse;
+import clinicapp.entity.nurses.NursePosition;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -21,5 +22,5 @@ public interface NurseRepository extends JpaRepository<Nurse, Long> {
     Nurse findByAge(@Param("age")Integer age);
 
     @Query("select n from Nurse n where n.position = :position")
-    Nurse findByPosition(@Param("position")String position);
+    Nurse findByPosition(@Param("position")NursePosition position);
 }
