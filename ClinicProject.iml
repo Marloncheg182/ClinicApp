@@ -17,36 +17,17 @@
     </facet>
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/jpa-repositories-config.xml</file>
-          <file>file://$MODULE_DIR$/src/main/java/clinicapp/config/DataBeanConfig.java</file>
-          <file>file://$MODULE_DIR$/src/main/java/clinicapp/Web/config/SecurityConfig.java</file>
-          <file>file://$MODULE_DIR$/src/main/java/clinicapp/config/TestDataBeanConfig.java</file>
-          <file>file://$MODULE_DIR$/src/main/java/clinicapp/Web/config/WebAppConfiguration.java</file>
-          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/application-context.xml</file>
-          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/spring-config.xml</file>
-          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/spring-config.xml</file>
-        </fileset>
-        <fileset id="fileset2" name="Spring Application Context (2)" removed="false">
-          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/servlets/servlet-context.xml</file>
-          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml</file>
-          <file>file://$MODULE_DIR$/src/main/java/clinicapp/config/DataBeanConfig.java</file>
-          <file>file://$MODULE_DIR$/src/main/java/clinicapp/Web/config/SecurityConfig.java</file>
-          <file>file://$MODULE_DIR$/src/main/java/clinicapp/Web/config/WebAppConfiguration.java</file>
-        </fileset>
-        <fileset id="fileset3" name="Spring Application Context (3)" removed="false">
-          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/root-application-context.xml</file>
-          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/servlets/servlet-context.xml</file>
-          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/servlets/controllers.xml</file>
+        <fileset id="web application context" name="MVC application context" removed="true">
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml</file>
         </fileset>
-        <fileset id="fileset4" name="Spring Application Context (4)" removed="false">
-          <dependency>fileset</dependency>
-          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/spring-security.xml</file>
+        <fileset id="web mvc-dispatcher servlet context" name="MVC mvc-dispatcher servlet context" removed="true">
+          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/servlet/servlet-context.xml</file>
+        </fileset>
+        <fileset id="fileset" name="application-context" removed="false">
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml</file>
-          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/servlets/controllers.xml</file>
-          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/root-application-context.xml</file>
-          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/servlets/servlet-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/servlet/servlet-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/clinicspdata/config/DatabaseTestConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/clinicspdata/config/DataBeanConfig.java</file>
         </fileset>
       </configuration>
     </facet>
@@ -59,7 +40,7 @@
           <factory-entry name="entityManagerFactory" value="58e99121-832f-46ec-a5a4-61b044821adf" />
           <factory-entry name="noname-persistence.xml@351" />
         </datasource-mapping>
-        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/persistence.xml" />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
       </configuration>
     </facet>
     <facet type="hibernate" name="Hibernate">

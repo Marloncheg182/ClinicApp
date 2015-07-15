@@ -2,130 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebc3dce0-b78e-430e-8226-2365486fe4ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/app.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/controller/AnalysisController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/controller/AnalysisController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/AnalysisController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/AnalysisController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/AnalysisDAO.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/AnalysisDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/AnalysisDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/AnalysisDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\repositories\AnalysisRepository.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/repositories/AnalysisRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/AnalysisService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/AnalysisService.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\services\AnalysisService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/services/AnalysisService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/AnalysisServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/AnalysisServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\serviceimpl\AnalysisServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/AnalysisServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicapp/Dao/Service/AnalysisServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/clinicapp/Dao/Service/AnalysisServiceImplTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/services/AnalysisServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/services/AnalysisServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/util/AnalysisUtil.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/util/AnalysisUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/controller/CardController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/controller/CardController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/CardController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/CardController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/CardDAO.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/CardDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/CardDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/CardDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\repositories\CardRepository.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/repositories/CardRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/CardService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/CardService.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\services\CardService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/services/CardService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/CardServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/CardServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\serviceimpl\CardServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/CardServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/services/CardServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/services/CardServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/util/CardUtil.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/util/CardUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/controller/ClinicController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/controller/ClinicController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/ClinicController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/ClinicController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/ClinicDAO.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/ClinicDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/ClinicDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/ClinicDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\repositories\ClinicRepository.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/repositories/ClinicRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/ClinicService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/ClinicService.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\services\ClinicService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/services/ClinicService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/ClinicServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/ClinicServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\serviceimpl\ClinicServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/ClinicServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicapp/Dao/Service/ClinicServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/clinicapp/Dao/Service/ClinicServiceImplTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/services/ClinicServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/services/ClinicServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/util/ClinicUtil.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/util/ClinicUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/controller/DoctorController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/controller/DoctorController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/DoctorController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/DoctorController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/DoctorDAO.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/DoctorDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/DoctorDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/DoctorDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\repositories\DoctorRepository.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/repositories/DoctorRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/DoctorService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/DoctorService.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\services\DoctorService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/services/DoctorService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/DoctorServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/DoctorServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\serviceimpl\DoctorServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/DoctorServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicapp/Dao/Service/DoctorServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/clinicapp/Dao/Service/DoctorServiceImplTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/services/DoctorServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/services/DoctorServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/util/DoctorUtil.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/util/DoctorUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/controller/InsuranceController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/controller/InsuranceController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/InsuranceController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/InsuranceController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/InsuranceDAO.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/InsuranceDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/InsuranceDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/InsuranceDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\repositories\InsuranceRepository.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/repositories/InsuranceRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/InsuranceService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/InsuranceService.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\services\InsuranceService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/services/InsuranceService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/InsuranceServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/InsuranceServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\serviceimpl\InsuranceServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/InsuranceServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/services/InsuranceServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/services/InsuranceServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/util/InsuranceUtil.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/util/InsuranceUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/controller/NurseController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/controller/NurseController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/NurseController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/NurseController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/NurseDAO.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/NurseDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/NurseDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/NurseDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\repositories\NurseRepository.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/repositories/NurseRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/NurseService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/NurseService.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\services\NurseService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/services/NurseService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/NurseServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/NurseServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\serviceimpl\NurseServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/NurseServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/services/NurseServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/services/NurseServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/util/NurseUtil.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/util/NurseUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/controller/OperationController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/controller/OperationController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/OperationController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/OperationController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/OperationDAO.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/OperationDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/OperationDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/OperationDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\repositories\OperationRepository.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/repositories/OperationRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/OperationService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/OperationService.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\services\OperationService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/services/OperationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/OperationServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/OperationServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\serviceimpl\OperationServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/OperationServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/services/OperationServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/services/OperationServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/util/OperationUtil.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/util/OperationUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/controller/PatientController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/controller/PatientController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/PatientController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/PatientController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/PatientDAO.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/PatientDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/PatientDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/PatientDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\repositories\PatientRepository.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/repositories/PatientRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/PatientService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/PatientService.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\services\PatientService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/services/PatientService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/PatientServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/PatientServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\serviceimpl\PatientServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/PatientServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/services/PatientServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/services/PatientServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/util/PatientUtil.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/util/PatientUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/controller/ProcedureController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/controller/ProcedureController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/ProcedureController.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/controller/ProcedureController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/ProcedureDAO.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/ProcedureDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/ProcedureDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/impl/ProcedureDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\repositories\ProcedureRepository.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/repositories/ProcedureRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/ProcedureService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/ProcedureService.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\services\ProcedureService.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/services/ProcedureService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/ProcedureServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicapp/Dao/Service/ProcedureServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\serviceimpl\ProcedureServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/ProcedureServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/services/ProcedureServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/services/ProcedureServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/util/ProcedureUtil.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/util/ProcedureUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/persistence.xml" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\MainServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\webapp\WEB-INF\servlet\controllers.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\webapp\WEB-INF\spring\root-application-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\webapp\WEB-INF\spring\spring-security.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClinicProject.iml" afterPath="$PROJECT_DIR$/ClinicProject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet/servlet-context.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet/servlet-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\config\AppWebMVCInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/config/AppWebMVCInitializer.java" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\config\DataBeanConfig.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/config/DataBeanConfig.java" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\config\DatabaseTestConfig.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/config/DatabaseTestConfig.java" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\config\Initializer.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/config/Initializer.java" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\entity\Analysis.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Analysis.java" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\entity\Card.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Card.java" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\entity\Clinic.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Clinic.java" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\entity\Doctor.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Doctor.java" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\entity\Insurance.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Insurance.java" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\entity\Nurse.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Nurse.java" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\entity\Operation.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Operation.java" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\entity\Patient.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Patient.java" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\entity\Procedure.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Procedure.java" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\entity\doctors\DoctorPosition.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/doctors/DoctorPosition.java" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\entity\doctors\Rating.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/doctors/Rating.java" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\entity\nurses\NursePosition.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/nurses/NursePosition.java" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\entity\patients\PatientState.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/patients/PatientState.java" />
-      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicspdata\servlet.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/MainServlet.java" />
+      <change type="MOVED" beforePath="D:\IT\Projects\ClinicProject\src\main\webapp\WEB-INF\persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
     </list>
     <ignored path="ClinicProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -330,30 +216,7 @@
     <favorites_list name="ClinicProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MainServlet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/MainServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2109929">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -377,12 +240,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/OperationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/PatientServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/ProcedureServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/config/DBUnitConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicapp/config/DatabaseTestConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/clinicspdata/services/CardSerivce.java" />
         <option value="$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/CardServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/clinicspdata/services/CardServiceTest.java" />
@@ -428,6 +285,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/app.properties" />
         <option value="$PROJECT_DIR$/src/main/java/clinicspdata/config/DataBeanConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-application-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/MainServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet/controllers.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet/servlet-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml" />
       </list>
     </option>
   </component>
@@ -498,10 +361,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="428" />
-    <option name="y" value="26" />
-    <option name="width" value="1038" />
-    <option name="height" value="722" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -616,6 +479,14 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -632,36 +503,48 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClinicProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClinicProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ClinicProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClinicProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -680,44 +563,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clinicspdata" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClinicProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClinicProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clinicspdata" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="serviceimpl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -784,11 +629,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IT\Projects\ClinicProject\src\main\resources\META-INF" />
+      <recent name="D:\IT\Projects\ClinicProject\src\main\webapp\resources" />
       <recent name="D:\IT\Projects\ClinicProject\src\test\resources\test.conf\clinic" />
       <recent name="D:\IT\Projects\ClinicProject\src\test\java" />
       <recent name="D:\IT\Projects\ClinicProject\src\test\config" />
-      <recent name="D:\IT\Projects\ClinicProject\src\main\resources\META-INF" />
-      <recent name="D:\IT\Projects\ClinicProject\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="clinicspdata" />
@@ -1271,15 +1116,15 @@
       <workItem from="1436201144412" duration="811000" />
       <workItem from="1436282752360" duration="564000" />
       <workItem from="1436894520866" duration="19801000" />
-      <workItem from="1436965193788" duration="7326000" />
+      <workItem from="1436965193788" duration="9883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160657000" />
+    <option name="totallyTimeSpent" value="163214000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="428" y="26" width="1038" height="722" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1300,10 +1145,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46875" sideWeight="0.49546143" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29647437" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3158784" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21063395" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15582451" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31089744" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1339,55 +1184,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/util/AnalysisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3617021">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/util/ProcedureUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39184397">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/util/PatientUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51241136">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/entity/Procedure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18085106">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/test.conf/clinic/clinic-create.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.120567374">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/entity/Clinic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2109929">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/util/ClinicUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15070923">
@@ -1699,34 +1495,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/config/AppWebMVCInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/config/Initializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5989933">
           <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6275168">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1771,9 +1543,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.031598512">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3421053">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.111111">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/entity/Analysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.08557047">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/config/AppWebMVCInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17114094">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/config/DatabaseTestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17114094">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/config/DataBeanConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2281879">
+        <state vertical-scroll-proportion="-0.055369128">
           <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1781,13 +1609,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/MainServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2109929">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.37080538">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet/servlet-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3884007">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
