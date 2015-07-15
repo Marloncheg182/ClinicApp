@@ -1,6 +1,6 @@
 package clinicspdata.services;
 
-import clinicapp.config.DatabaseTestConfig;
+import clinicspdata.config.DatabaseTestConfig;
 import clinicspdata.util.InsuranceUtil;
 import org.junit.Before;
 import org.junit.Test;
@@ -13,8 +13,6 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import javax.annotation.Resource;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
-
-import static org.junit.Assert.*;
 
 /**
  * @author Oleg Romanenchuk

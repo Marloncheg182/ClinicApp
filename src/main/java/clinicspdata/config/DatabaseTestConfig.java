@@ -1,4 +1,4 @@
-package clinicapp.config;
+package clinicspdata.config;
 
 import org.hibernate.jpa.HibernatePersistenceProvider;
 import org.springframework.context.annotation.Bean;
@@ -28,7 +28,7 @@ public class DatabaseTestConfig {
     private static final String PROP_HIBERNATE_DIALECT = "org.hibernate.dialect.MySQLDialect";
     private static final String PROP_HIBERNATE_SHOW_SQL = "true";
     private static final String PROP_HIBERNATE_HBM2DDL_AUTO = "update";
-    private static final String PROP_ENTITYMANAGER_PACKAGES_TO_SCAN = "clinicapp.entity";
+    private static final String PROP_ENTITYMANAGER_PACKAGES_TO_SCAN = "clinicspdata.entity";
 
     @Bean
     public LocalContainerEntityManagerFactoryBean entityManagerFactory(){

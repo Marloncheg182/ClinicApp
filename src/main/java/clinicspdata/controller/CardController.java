@@ -1,6 +1,6 @@
 package clinicspdata.controller;
 
-import clinicapp.entity.Card;
+import clinicspdata.entity.Card;
 import clinicspdata.services.CardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

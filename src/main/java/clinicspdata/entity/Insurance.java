@@ -1,6 +1,5 @@
-package clinicapp.entity;
+package clinicspdata.entity;
 
-import clinicapp.entity.Card;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;

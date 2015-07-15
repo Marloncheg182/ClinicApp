@@ -1,7 +1,7 @@
 package clinicapp.controller;
 
 import clinicapp.Dao.Service.CardService;
-import clinicapp.entity.Card;
+import clinicspdata.entity.Card;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;

@@ -1,4 +1,4 @@
-package clinicapp.entity.doctors;
+package clinicspdata.entity.doctors;
 
 /**
  * Created by Dell on 6/24/2015.

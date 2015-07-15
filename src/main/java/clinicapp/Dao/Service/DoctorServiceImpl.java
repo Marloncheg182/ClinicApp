@@ -2,7 +2,7 @@ package clinicapp.Dao.Service;
 
 
 import clinicapp.Dao.DoctorDAO;
-import clinicapp.entity.Doctor;
+import clinicspdata.entity.Doctor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
 package clinicapp.Dao.Service;
 
-import clinicapp.entity.Analysis;
+import clinicspdata.entity.Analysis;
 import config.DBUnitConfig;
 import org.dbunit.Assertion;
 import org.dbunit.dataset.IDataSet;
@@ -14,7 +14,6 @@ import javax.persistence.Persistence;
 
 import java.util.List;
 
-import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
 public class AnalysisServiceImplTest extends DBUnitConfig {

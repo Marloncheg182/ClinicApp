@@ -1,6 +1,6 @@
 package clinicspdata.controller;
 
-import clinicapp.entity.Analysis;
+import clinicspdata.entity.Analysis;
 import clinicspdata.services.AnalysisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

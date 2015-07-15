@@ -1,7 +1,7 @@
 package clinicapp.controller;
 
 import clinicapp.Dao.Service.OperationService;
-import clinicapp.entity.Operation;
+import clinicspdata.entity.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;

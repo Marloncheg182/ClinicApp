@@ -1,6 +1,6 @@
 package clinicapp.Dao;
 
-import clinicapp.entity.Procedure;
+import clinicspdata.entity.Procedure;
 
 import java.util.List;
 

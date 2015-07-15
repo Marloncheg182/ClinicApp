@@ -1,7 +1,7 @@
 package clinicapp.Dao.impl;
 
 import clinicapp.Dao.NurseDAO;
-import clinicapp.entity.Nurse;
+import clinicspdata.entity.Nurse;
 import org.apache.log4j.Logger;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;

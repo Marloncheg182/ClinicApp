@@ -1,15 +1,14 @@
-package clinicapp.entity;
+package clinicspdata.entity;
 
-import clinicapp.entity.doctors.DoctorPosition;
-import clinicapp.entity.doctors.Rating;
+
+import clinicspdata.entity.nurses.NursePosition;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "doctor")
-public class Doctor {
-
+@Table(name = "nurse")
+public class Nurse {
     @Id
     @GeneratedValue(generator = "increment", strategy = GenerationType.AUTO)
     @GenericGenerator(name = "increment", strategy = "increment")
@@ -26,29 +25,25 @@ public class Doctor {
     private int age;
 
     @Column(name = "position")
-    private DoctorPosition position;
+    private NursePosition position;
 
     @Column(name = "phone_number")
     private String phoneNumber;
 
-    @Column(name = "rating")
-    private Rating rating;
-
-    // creating of relations between Doctor table and Clinic.
+    // creating of relations between Nurse table and Clinic.
     @ManyToOne(fetch = FetchType.LAZY, cascade = {CascadeType.MERGE, CascadeType.PERSIST})
     @JoinColumn(name = "clinic_id", nullable = false)
     private Clinic clinic;
 
-    public Doctor() {
+    public Nurse() {
     }
 
-    public Doctor(String firstName, String lastName, int age, DoctorPosition position, String phoneNumber, Rating rating, Clinic clinic) {
+    public Nurse(String firstName, String lastName, int age, NursePosition position, String phoneNumber, Clinic clinic) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
         this.position = position;
         this.phoneNumber = phoneNumber;
-        this.rating = rating;
         this.clinic = clinic;
     }
 
@@ -84,11 +79,11 @@ public class Doctor {
         this.age = age;
     }
 
-    public DoctorPosition getPosition() {
+    public NursePosition getPosition() {
         return position;
     }
 
-    public void setPosition(DoctorPosition position) {
+    public void setPosition(NursePosition position) {
         this.position = position;
     }
 
@@ -98,14 +93,6 @@ public class Doctor {
 
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
-    }
-
-    public Rating getRating() {
-        return rating;
-    }
-
-    public void setRating(Rating rating) {
-        this.rating = rating;
     }
 
     public Clinic getClinic() {

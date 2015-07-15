@@ -1,13 +1,12 @@
-package clinicapp.entity;
+package clinicspdata.entity;
 
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "procedure")
-public class Procedure {
-
+@Table(name = "analysis")
+public class Analysis {
     @Id
     @GeneratedValue(generator = "increment", strategy = GenerationType.AUTO)
     @GenericGenerator(name = "increment", strategy = "increment")
@@ -21,15 +20,15 @@ public class Procedure {
     private String notes;
 
 
-    // add the relations between Procedure table and Card
+    // add the relations between Analysis table and Card
     @ManyToOne(fetch = FetchType.LAZY, cascade = {CascadeType.MERGE, CascadeType.PERSIST})
     @JoinColumn(name = "card_id", nullable = false)
     private Card card;
 
-    public Procedure() {
+    public Analysis() {
     }
 
-    public Procedure(String date, String notes, Card card) {
+    public Analysis(String date, String notes, Card card) {
         this.date = date;
         this.notes = notes;
         this.card = card;
@@ -67,4 +66,3 @@ public class Procedure {
         this.card = card;
     }
 }
-

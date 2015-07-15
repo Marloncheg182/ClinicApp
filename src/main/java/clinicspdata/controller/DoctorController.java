@@ -1,8 +1,8 @@
 package clinicspdata.controller;
 
-import clinicapp.entity.Doctor;
-import clinicapp.entity.doctors.DoctorPosition;
-import clinicapp.entity.doctors.Rating;
+import clinicspdata.entity.Doctor;
+import clinicspdata.entity.doctors.DoctorPosition;
+import clinicspdata.entity.doctors.Rating;
 import clinicspdata.services.DoctorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

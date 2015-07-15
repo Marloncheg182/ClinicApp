@@ -1,7 +1,7 @@
 package clinicapp.Dao.impl;
 
 import clinicapp.Dao.DoctorDAO;
-import clinicapp.entity.Doctor;
+import clinicspdata.entity.Doctor;
 import org.apache.log4j.Logger;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package clinicapp.config;
+package clinicspdata.config;
 
 
 import org.hibernate.jpa.HibernatePersistenceProvider;
@@ -19,9 +19,9 @@ import java.util.Properties;
 
 @Configuration                                    // This class responds for Spring config
 @EnableTransactionManagement                      // Transactions in DBases are enabled
-@ComponentScan("clinicapp")                       // src for Spring components
-@PropertySource("classpath:persistence.xml")       // enable our persistence config
-@EnableJpaRepositories("clinicapp")    // enable the JPA repository in repository dir.
+@ComponentScan("clinicspdata")                       // src for Spring components
+@PropertySource("classpath:app.properties")       // properties
+@EnableJpaRepositories("clinicspdata")    // enable the JPA repository in repository dir.
 public class DataBeanConfig {
 
     private static final String PROP_DATABASE_DRIVER = "com.mysql.jdbc.Driver";
@@ -31,7 +31,7 @@ public class DataBeanConfig {
     private static final String PROP_HIBERNATE_DIALECT = "org.hibernate.dialect.MySQLDialect";
     private static final String PROP_HIBERNATE_SHOW_SQL = "true";
     private static final String PROP_HIBERNATE_HBM2DDL_AUTO = "update";
-    private static final String PROP_ENTITYMANAGER_PACKAGES_TO_SCAN = "clinicapp.entity";
+    private static final String PROP_ENTITYMANAGER_PACKAGES_TO_SCAN = "clinicspdata.entity";
 
     @Resource
     private Environment environment;           // uses to obtain our props. from app.properties

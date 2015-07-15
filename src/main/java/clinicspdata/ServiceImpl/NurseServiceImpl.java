@@ -1,7 +1,7 @@
 package clinicspdata.serviceimpl;
 
-import clinicapp.entity.Nurse;
-import clinicapp.entity.nurses.NursePosition;
+import clinicspdata.entity.Nurse;
+import clinicspdata.entity.nurses.NursePosition;
 import clinicspdata.repositories.NurseRepository;
 import clinicspdata.services.NurseService;
 import org.springframework.beans.factory.annotation.Autowired;

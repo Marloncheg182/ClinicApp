@@ -1,7 +1,7 @@
 package clinicspdata.util;
 
-import clinicapp.entity.Patient;
-import clinicapp.entity.patients.PatientState;
+import clinicspdata.entity.Patient;
+import clinicspdata.entity.patients.PatientState;
 
 /**
  * @author Oleg Romanenchuk

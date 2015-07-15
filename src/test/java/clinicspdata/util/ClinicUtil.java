@@ -1,6 +1,6 @@
 package clinicspdata.util;
 
-import clinicapp.entity.Clinic;
+import clinicspdata.entity.Clinic;
 
 /**
  * @author Oleg Romanenchuk

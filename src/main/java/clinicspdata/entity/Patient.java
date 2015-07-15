@@ -1,7 +1,7 @@
-package clinicapp.entity;
+package clinicspdata.entity;
 
 
-import clinicapp.entity.patients.PatientState;
+import clinicspdata.entity.patients.PatientState;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;

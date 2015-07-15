@@ -1,7 +1,7 @@
 package clinicspdata.controller;
 
-import clinicapp.entity.Patient;
-import clinicapp.entity.patients.PatientState;
+import clinicspdata.entity.Patient;
+import clinicspdata.entity.patients.PatientState;
 import clinicspdata.services.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

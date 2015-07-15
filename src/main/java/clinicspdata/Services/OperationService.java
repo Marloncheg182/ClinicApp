@@ -1,6 +1,6 @@
 package clinicspdata.services;
 
-import clinicapp.entity.Operation;
+import clinicspdata.entity.Operation;
 
 import java.util.List;
 

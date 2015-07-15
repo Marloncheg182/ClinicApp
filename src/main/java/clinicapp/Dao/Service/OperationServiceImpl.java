@@ -1,7 +1,7 @@
 package clinicapp.Dao.Service;
 
 import clinicapp.Dao.OperationDAO;
-import clinicapp.entity.Operation;
+import clinicspdata.entity.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

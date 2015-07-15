@@ -1,6 +1,6 @@
 package clinicspdata.serviceimpl;
 
-import clinicapp.entity.Insurance;
+import clinicspdata.entity.Insurance;
 import clinicspdata.repositories.InsuranceRepository;
 import clinicspdata.services.InsuranceService;
 import org.springframework.beans.factory.annotation.Autowired;

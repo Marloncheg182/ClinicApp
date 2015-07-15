@@ -1,8 +1,8 @@
 package clinicapp.Dao.Service;
 
-import clinicapp.entity.Doctor;
-import clinicapp.entity.doctors.DoctorPosition;
-import clinicapp.entity.doctors.Rating;
+import clinicspdata.entity.Doctor;
+import clinicspdata.entity.doctors.DoctorPosition;
+import clinicspdata.entity.doctors.Rating;
 import config.DBUnitConfig;
 import org.dbunit.Assertion;
 import org.dbunit.dataset.IDataSet;
@@ -15,8 +15,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 
 public class DoctorServiceImplTest extends DBUnitConfig {

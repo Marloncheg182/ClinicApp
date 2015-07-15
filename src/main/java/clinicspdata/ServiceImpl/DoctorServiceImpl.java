@@ -1,8 +1,8 @@
 package clinicspdata.serviceimpl;
 
-import clinicapp.entity.Doctor;
-import clinicapp.entity.doctors.DoctorPosition;
-import clinicapp.entity.doctors.Rating;
+import clinicspdata.entity.Doctor;
+import clinicspdata.entity.doctors.DoctorPosition;
+import clinicspdata.entity.doctors.Rating;
 import clinicspdata.repositories.DoctorRepository;
 import clinicspdata.services.DoctorService;
 import org.springframework.beans.factory.annotation.Autowired;

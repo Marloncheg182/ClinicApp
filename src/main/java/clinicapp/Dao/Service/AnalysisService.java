@@ -1,6 +1,6 @@
 package clinicapp.Dao.Service;
 
-import clinicapp.entity.Analysis;
+import clinicspdata.entity.Analysis;
 
 import java.util.List;
 

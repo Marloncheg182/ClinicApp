@@ -1,4 +1,4 @@
-package clinicapp.entity;
+package clinicspdata.entity;
 
 
 import org.hibernate.annotations.GenericGenerator;

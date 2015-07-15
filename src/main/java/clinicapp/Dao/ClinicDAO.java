@@ -1,7 +1,7 @@
 package clinicapp.Dao;
 
 
-import clinicapp.entity.Clinic;
+import clinicspdata.entity.Clinic;
 
 import java.util.List;
 

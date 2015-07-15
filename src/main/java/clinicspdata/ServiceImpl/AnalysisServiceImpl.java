@@ -1,6 +1,6 @@
 package clinicspdata.serviceimpl;
 
-import clinicapp.entity.Analysis;
+import clinicspdata.entity.Analysis;
 import clinicspdata.repositories.AnalysisRepository;
 import clinicspdata.services.AnalysisService;
 import org.springframework.beans.factory.annotation.Autowired;

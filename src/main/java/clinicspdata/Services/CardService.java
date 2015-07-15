@@ -1,6 +1,6 @@
 package clinicspdata.services;
 
-import clinicapp.entity.Card;
+import clinicspdata.entity.Card;
 
 import java.util.List;
 

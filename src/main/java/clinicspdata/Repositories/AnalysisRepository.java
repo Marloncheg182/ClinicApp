@@ -1,6 +1,6 @@
 package clinicspdata.repositories;
 
-import clinicapp.entity.Analysis;
+import clinicspdata.entity.Analysis;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

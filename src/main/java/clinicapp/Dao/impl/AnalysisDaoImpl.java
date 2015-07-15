@@ -2,7 +2,7 @@ package clinicapp.Dao.impl;
 
 
 import clinicapp.Dao.AnalysisDAO;
-import clinicapp.entity.Analysis;
+import clinicspdata.entity.Analysis;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

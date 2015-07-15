@@ -1,6 +1,6 @@
 package clinicapp.Dao.Service;
 
-import clinicapp.entity.Clinic;
+import clinicspdata.entity.Clinic;
 import config.DBUnitConfig;
 import org.dbunit.Assertion;
 import org.dbunit.dataset.IDataSet;

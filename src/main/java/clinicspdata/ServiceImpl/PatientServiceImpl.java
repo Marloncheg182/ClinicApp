@@ -1,7 +1,7 @@
 package clinicspdata.serviceimpl;
 
-import clinicapp.entity.Patient;
-import clinicapp.entity.patients.PatientState;
+import clinicspdata.entity.Patient;
+import clinicspdata.entity.patients.PatientState;
 import clinicspdata.repositories.PatientRepository;
 import clinicspdata.services.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;

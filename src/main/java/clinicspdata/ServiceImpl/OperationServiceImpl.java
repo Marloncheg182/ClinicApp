@@ -1,6 +1,6 @@
 package clinicspdata.serviceimpl;
 
-import clinicapp.entity.Operation;
+import clinicspdata.entity.Operation;
 import clinicspdata.repositories.OperationRepository;
 import clinicspdata.services.OperationService;
 import org.springframework.beans.factory.annotation.Autowired;

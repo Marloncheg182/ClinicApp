@@ -1,12 +1,13 @@
-package clinicapp.entity;
+package clinicspdata.entity;
 
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "analysis")
-public class Analysis {
+@Table(name = "operation")
+public class Operation {
+
     @Id
     @GeneratedValue(generator = "increment", strategy = GenerationType.AUTO)
     @GenericGenerator(name = "increment", strategy = "increment")
@@ -16,21 +17,24 @@ public class Analysis {
     @Column(name = "date")
     private String date;
 
-    @Column(name = "notes")
-    private String notes;
+    @Column(name = "type")
+    private String type;
 
+    @Column(name = "result")
+    private String result;
 
-    // add the relations between Analysis table and Card
+    // add the relations between Operation table and Card
     @ManyToOne(fetch = FetchType.LAZY, cascade = {CascadeType.MERGE, CascadeType.PERSIST})
     @JoinColumn(name = "card_id", nullable = false)
     private Card card;
 
-    public Analysis() {
+    public Operation() {
     }
 
-    public Analysis(String date, String notes, Card card) {
+    public Operation(String date, String type, String result, Card card) {
         this.date = date;
-        this.notes = notes;
+        this.type = type;
+        this.result = result;
         this.card = card;
     }
 
@@ -50,12 +54,20 @@ public class Analysis {
         this.date = date;
     }
 
-    public String getNotes() {
-        return notes;
+    public String getType() {
+        return type;
     }
 
-    public void setNotes(String notes) {
-        this.notes = notes;
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getResult() {
+        return result;
+    }
+
+    public void setResult(String result) {
+        this.result = result;
     }
 
     public Card getCard() {

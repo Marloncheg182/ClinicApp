@@ -1,4 +1,4 @@
-package clinicapp.config;
+package clinicspdata.config;
 
 
 import org.springframework.web.WebApplicationInitializer;

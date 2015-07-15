@@ -1,6 +1,6 @@
 package clinicspdata.services;
 
-import clinicapp.entity.Clinic;
+import clinicspdata.entity.Clinic;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package clinicspdata.controller;
 
-import clinicapp.entity.Operation;
+import clinicspdata.entity.Operation;
 import clinicspdata.services.OperationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

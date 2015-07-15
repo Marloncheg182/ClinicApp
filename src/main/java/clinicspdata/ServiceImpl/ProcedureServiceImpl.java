@@ -1,6 +1,6 @@
 package clinicspdata.serviceimpl;
 
-import clinicapp.entity.Procedure;
+import clinicspdata.entity.Procedure;
 import clinicspdata.repositories.ProcedureRepository;
 import clinicspdata.services.ProcedureService;
 import org.springframework.beans.factory.annotation.Autowired;

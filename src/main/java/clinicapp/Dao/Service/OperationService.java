@@ -1,7 +1,7 @@
 package clinicapp.Dao.Service;
 
 
-import clinicapp.entity.Operation;
+import clinicspdata.entity.Operation;
 
 import java.util.List;
 

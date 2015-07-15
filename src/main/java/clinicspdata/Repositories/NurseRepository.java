@@ -1,7 +1,7 @@
 package clinicspdata.repositories;
 
-import clinicapp.entity.Nurse;
-import clinicapp.entity.nurses.NursePosition;
+import clinicspdata.entity.Nurse;
+import clinicspdata.entity.nurses.NursePosition;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

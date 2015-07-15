@@ -1,4 +1,4 @@
-package clinicapp.entity.nurses;
+package clinicspdata.entity.nurses;
 
 /**
  * Created by Dell on 6/24/2015.
