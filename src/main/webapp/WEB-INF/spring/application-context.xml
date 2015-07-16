@@ -70,7 +70,7 @@
 
 
 
-    <context:annotation-config/>
+    <context:annotation-dbunitcase.config/>
     <context:component-scan base-package="clinicspdata.repositories"/>
     <context:component-scan base-package="clinicspdata.services"/>
     <context:component-scan base-package="clinicspdata.serviceimpl"/>

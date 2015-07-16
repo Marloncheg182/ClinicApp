@@ -17,7 +17,7 @@ import javax.annotation.Resource;
 import javax.sql.DataSource;
 import java.util.Properties;
 
-@Configuration                                    // This class responds for Spring config
+@Configuration                                    // This class responds for Spring dbunitcase.config
 @EnableTransactionManagement                      // Transactions in DBases are enabled
 @ComponentScan("clinicspdata")                       // src for Spring components
 @PropertySource("classpath:app.properties")       // properties
