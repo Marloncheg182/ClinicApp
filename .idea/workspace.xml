@@ -2,72 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebc3dce0-b78e-430e-8226-2365486fe4ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_dbunitcase_config_4_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/connection/TestConnection.java" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\.idea\libraries\Maven__org_springframework_security_spring_security_config_4_0_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\AnalysisDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\CardDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\ClinicDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\DoctorDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\InsuranceDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\NurseDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\OperationDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\PatientDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\ProcedureDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\AnalysisService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\AnalysisServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\CardService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\CardServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\ClinicService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\ClinicServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\DoctorService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\DoctorServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\InsuranceService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\InsuranceServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\NurseService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\NurseServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\OperationService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\OperationServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\PatientService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\PatientServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\ProcedureService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\Service\ProcedureServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\impl\AnalysisDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\impl\CardDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\impl\ClinicDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\impl\DoctorDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\impl\InsuranceDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\impl\NurseDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\impl\OperationDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\impl\PatientDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\Dao\impl\ProcedureDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\controller\AnalysisController.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\controller\CardController.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\controller\ClinicController.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\controller\DoctorController.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\controller\InsuranceController.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\controller\NurseController.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\controller\OperationController.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\controller\PatientController.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\main\java\clinicapp\controller\ProcedureController.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\test\java\clinicapp\Dao\Service\AnalysisServiceImplTest.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\test\java\clinicapp\Dao\Service\ClinicServiceImplTest.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\test\java\clinicapp\Dao\Service\DoctorServiceImplTest.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\test\java\config\DBUnitConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\test\resources\db.config.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\test\resources\test.conf\analysis\analysis-create.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\test\resources\test.conf\analysis\analysis-data.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\test\resources\test.conf\analysis\analysis-remove.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\test\resources\test.conf\clinic\clinic-create.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\test\resources\test.conf\clinic\clinic-data.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\test\resources\test.conf\clinic\clinic-remove.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\test\resources\test.conf\doctor\doctor-create.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\test\resources\test.conf\doctor\doctor-data.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\src\test\resources\test.conf\doctor\doctor-remove.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/AnalysisRepositoryTest.java" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\.idea\libraries\Maven__org_springframework_security_spring_security_dbunitcase_config_4_0_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\META-INF\app.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\META-INF\hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\META-INF\persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\config\AppWebMVCInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\config\DataBeanConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\config\DatabaseTestConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\config\Initializer.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\AnalysisController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\CardController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\ClinicController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\DoctorController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\InsuranceController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\NurseController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\OperationController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\PatientController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\ProcedureController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Analysis.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Card.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Clinic.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Doctor.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Insurance.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Nurse.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Operation.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Patient.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Procedure.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\doctors\DoctorPosition.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\doctors\Rating.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\nurses\NursePosition.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\patients\PatientState.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\AnalysisRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\CardRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\ClinicRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\DoctorRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\InsuranceRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\NurseRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\OperationRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\PatientRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\ProcedureRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\AnalysisServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\CardServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\ClinicServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\DoctorServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\InsuranceServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\NurseServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\OperationServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\PatientServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\ProcedureServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\AnalysisService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\CardService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\ClinicService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\DoctorService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\InsuranceService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\NurseService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\OperationService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\PatientService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\ProcedureService.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\label_en.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\label_ru.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\AnalysisServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\CardServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\ClinicServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\DoctorServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\InsuranceServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\NurseServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\OperationServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\PatientServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\ProcedureServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\AnalysisUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\CardUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\ClinicUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\DoctorUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\InsuranceUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\NurseUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\OperationUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\PatientUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\ProcedureUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\connection\TestConnection.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClinicProject.iml" afterPath="$PROJECT_DIR$/ClinicProject.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ClinicProject_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ClinicProject_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/config/DataBeanConfig.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/config/DataBeanConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/connection/TestConnection.java" afterPath="$PROJECT_DIR$/src/test/java/connection/TestConnection.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -275,14 +292,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestConnection.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/connection/TestConnection.java">
+      <file leaf-file-name="AnalysisRepositoryTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/AnalysisRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8188277">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.5780142">
+              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -293,9 +308,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -311,9 +326,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/util/PatientUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/util/CardUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/util/AnalysisUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/clinicspdata/util/ProcedureUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/clinicspdata/util/ClinicUtil.java" />
         <option value="$PROJECT_DIR$/Project Description.txt" />
@@ -360,8 +372,11 @@
         <option value="$PROJECT_DIR$/src/test/java/dbunitcase/Dao/Service/ClinicServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/dbunitcase/Dao/Service/DoctorServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/dbunitcase/Dao/Service/AnalysisServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/connection/TestConnection.java" />
         <option value="$PROJECT_DIR$/src/test/java/dbunit/Dao/Service/AnalysisServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/AnalysisServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/connection/TestConnection.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/AnalysisRepositoryTest.java" />
       </list>
     </option>
   </component>
@@ -439,8 +454,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="259" />
-    <option name="y" value="5" />
+    <option name="x" value="163" />
+    <option name="y" value="3" />
     <option name="width" value="1038" />
     <option name="height" value="722" />
   </component>
@@ -508,8 +523,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -541,40 +554,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClinicProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClinicProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="connection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -617,41 +596,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="clinicspdata" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClinicProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClinicProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clinicspdata" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="serviceimpl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -699,6 +650,7 @@
       <recent name="clinicspdata" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="clinicspdata.repositories" />
       <recent name="clinicspdata.services" />
       <recent name="clinicapp.Dao.Service" />
       <recent name="clinicapp.service.impl" />
@@ -1105,9 +1057,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Unknown" factoryName="Unknown">
-      <method />
-    </configuration>
     <configuration default="true" type="com.intellij.dmserver.run.DMServerRunConfigurationType:id" factoryName="Spring dmServer (Local)" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings>
@@ -1316,50 +1265,51 @@
       <workItem from="1436894520866" duration="19801000" />
       <workItem from="1436965193788" duration="20118000" />
       <workItem from="1437075695444" duration="130000" />
-      <workItem from="1437076691030" duration="3308000" />
+      <workItem from="1437076691030" duration="6604000" />
+      <workItem from="1437083588591" duration="56000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176887000" />
+    <option name="totallyTimeSpent" value="180239000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="259" y="5" width="1038" height="722" extended-state="0" />
-    <editor active="false" />
+    <frame x="163" y="3" width="1038" height="722" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32656515" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25887266" sideWeight="0.5045386" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282572" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25664622" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25642964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46875" sideWeight="0.49546143" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3158784" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18404908" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29447854" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18404908" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Log4jMonitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32656515" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46875" sideWeight="0.49546143" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.534687" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3158784" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29447854" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3108108" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Log4jMonitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39583334" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53451043" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3108108" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1384,6 +1334,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/repositories/AnalysisRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/AnalysisRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/controller/OperationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.140071">
@@ -1456,14 +1430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/config/DatabaseTestConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17114094">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pages/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.6312057">
@@ -1489,16 +1455,6 @@
       </provider>
       <provider editor-type-id="ResourceBundle">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/config/DataBeanConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8439716">
-          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/entity/Card.java">
@@ -1561,17 +1517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9592198">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1595,7 +1540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.9070632">
           <caret line="355" column="17" selection-start-line="355" selection-start-column="17" selection-end-line="355" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1611,18 +1555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.851851">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/AnalysisServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45212767">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="27" />
-          <folding>
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1630,9 +1562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.035460994">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1640,7 +1569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.035460994">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1648,9 +1576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.03368794">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1658,9 +1583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21631205">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1668,7 +1590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09042553">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1676,7 +1597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09042553">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1684,7 +1604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09042553">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1692,7 +1611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21631205">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1708,33 +1626,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4539007">
           <caret line="75" column="7" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/config/DatabaseTestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1722913">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/util/AnalysisUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/config/DataBeanConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5133215">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.84547067">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/AnalysisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24156305">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/services/AnalysisServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45293072">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.27531084">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/util/AnalysisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21136767">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/connection/TestConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8188277">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.03374778">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/github/springtestdbunit/spring-test-dbunit/1.2.1/spring-test-dbunit-1.2.1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.77087">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2801418">
+          <caret line="186" column="20" selection-start-line="186" selection-start-column="20" selection-end-line="186" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/repositories/AnalysisRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24113475">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/AnalysisRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5780142">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>

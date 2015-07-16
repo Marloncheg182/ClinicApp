@@ -134,11 +134,7 @@
             <artifactId>spring-security-web</artifactId>
             <version>4.0.1.RELEASE</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-dbunitcase.config</artifactId>
-            <version>4.0.1.RELEASE</version>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-taglibs</artifactId>
@@ -170,7 +166,13 @@
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
         </dependency>
-    </dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>4.1.6.RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+           </dependencies>
 
     <build>
         <plugins>
