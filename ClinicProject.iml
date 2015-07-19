@@ -48,6 +48,7 @@
         <datasource-map>
           <unit-entry name="META-INF:hibernate.cfg.xml" />
           <unit-entry name="hibernate.cfg.xml" />
+          <unit-entry name="hibernateSessionFactory" value="dataSource" />
           <unit-entry name="sessionFactory" value="dataSource" />
         </datasource-map>
         <naming-strategy-map />
@@ -124,5 +125,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:4.1.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: jstl:jstl:1.2" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.github.springtestdbunit:spring-test-dbunit:1.2.1" level="project" />
   </component>
 </module>

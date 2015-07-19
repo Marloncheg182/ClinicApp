@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+<nurse id="1" firstName="Alice" lastName="Wonder" age="25"
+       nursePosition="CRNA"
+       phone_number="+380-...-..-.."/>
+<nurse id="2" firstName="Merry" lastName="Jane" age="32"
+       nursePosition="CNS"
+       phone_number="+380-...-..-.."/>
+</dataset>

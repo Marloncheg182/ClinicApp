@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <operation id="1" date="16.07.2015" type="removing the bullet from bullet hole"
+               result="The operation was effective. Bullet removed from bullet hole"/>
+    <operation id="2" date="17.07.2015" type="recovery of some health functions"
+               result="The operation was effective"/>
+</dataset>

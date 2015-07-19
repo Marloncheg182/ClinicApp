@@ -5,6 +5,7 @@ import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import java.util.Collection;
+import java.util.List;
 
 @Entity
 @Table(name = "card")
@@ -38,6 +39,19 @@ public class Card {
     @OneToOne(optional = false, targetEntity = Patient.class)
     @JoinColumn(name = "patient_id", referencedColumnName = "id", nullable = false)
     private Patient patient;
+
+    @OneToMany(mappedBy = "card")
+    private List<Analysis> analysises;
+
+    @OneToMany(mappedBy = "card")
+    private List<Operation> operations;
+
+    @OneToOne(optional = false, targetEntity = Insurance.class)
+    @JoinColumn(name = "insurance_id", referencedColumnName = "id", nullable = false)
+    private Insurance insurance;
+
+    @OneToMany(mappedBy = "card")
+    private List<Procedure> procedure;
 
     public Card() {
     }
@@ -116,15 +130,54 @@ public class Card {
         this.patient = patient;
     }
 
-    @OneToMany(mappedBy = "card")
-    private Collection<Procedure> procedure;
-
-    public Collection<Procedure> getProcedure() {
+    public List<Procedure> getProcedure() {
         return procedure;
     }
 
-    public void setProcedure(Collection<Procedure> procedure) {
+    public void setProcedure(List<Procedure> procedure) {
         this.procedure = procedure;
+    }
+
+    public List<Analysis> getAnalysises() {
+        return analysises;
+    }
+
+    public void setAnalysises(List<Analysis> analysises) {
+        this.analysises = analysises;
+    }
+
+    public List<Operation> getOperations() {
+        return operations;
+    }
+
+    public void setOperations(List<Operation> operations) {
+        this.operations = operations;
+    }
+
+    public Insurance getInsurance() {
+        return insurance;
+    }
+
+    public void setInsurance(Insurance insurance) {
+        this.insurance = insurance;
+    }
+
+    @Override
+    public String toString() {
+        return "Card{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", birthDate='" + birthDate + '\'' +
+                ", diagnosis='" + diagnosis + '\'' +
+                ", symptoms='" + symptoms + '\'' +
+                ", additionalNotes='" + additionalNotes + '\'' +
+                ", patient=" + patient +
+                ", analysises=" + analysises +
+                ", operations=" + operations +
+                ", insurance=" + insurance +
+                ", procedure=" + procedure +
+                '}';
     }
 }
 

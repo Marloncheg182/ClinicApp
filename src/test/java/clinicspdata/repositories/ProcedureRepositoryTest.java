@@ -1,7 +1,10 @@
 package clinicspdata.repositories;
 
 import clinicspdata.config.DatabaseTestConfig;
-import clinicspdata.entity.Analysis;
+import clinicspdata.entity.Procedure;
+import com.github.springtestdbunit.DbUnitTestExecutionListener;
+import com.github.springtestdbunit.annotation.DatabaseSetup;
+import com.github.springtestdbunit.annotation.ExpectedDatabase;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,10 +16,7 @@ import org.springframework.test.context.support.DependencyInjectionTestExecution
 import org.springframework.test.context.support.DirtiesContextTestExecutionListener;
 import org.springframework.test.context.transaction.TransactionalTestExecutionListener;
 
-import com.github.springtestdbunit.DbUnitTestExecutionListener;
-import com.github.springtestdbunit.annotation.DatabaseSetup;
-import com.github.springtestdbunit.annotation.ExpectedDatabase;
-
+import static org.junit.Assert.*;
 
 /**
  * @author Oleg Romanenchuk
@@ -27,39 +27,35 @@ import com.github.springtestdbunit.annotation.ExpectedDatabase;
         DirtiesContextTestExecutionListener.class,
         TransactionalTestExecutionListener.class,
         DbUnitTestExecutionListener.class})
-public class AnalysisRepositoryTest {
+public class ProcedureRepositoryTest {
 
     @Autowired
-    private AnalysisRepository analysisRepository;
+    private ProcedureRepository procedureRepository;
 
     @Test
-    @DatabaseSetup("analysisData.xml")
+    @DatabaseSetup("procedureData.xml")
     public void testFindById() throws Exception {
-        Analysis analysis = analysisRepository.findOne(1L);
-        Assert.assertNotNull(analysis);
-        Assert.assertEquals("blood pressure", analysis.getNotes());
-
+        Procedure procedure = procedureRepository.findById(1L);
+        Assert.assertNotNull(procedure);
+        Assert.assertEquals(1, procedure.getNotes());
     }
 
     @Test
-    @DatabaseSetup("analysisData.xml")
+    @DatabaseSetup("procedureData.xml")
     public void testFindByDate() throws Exception {
-        Analysis analysis = analysisRepository.findByDate("12.07.2015");
-        Assert.assertNotNull(analysis);
-        Assert.assertEquals("12.07.2015", analysis.getDate());
-
-
+        Procedure procedure = procedureRepository.findByDate("16.07.2015");
+        Assert.assertNotNull(procedure);
+        Assert.assertEquals("16.07.2015", procedure.getNotes());
     }
 
     @Test
-    @DatabaseSetup("analysisData.xml")
-    @ExpectedDatabase("updatedAnalysis.xml")
-    public void testUpdateAnalysis() throws Exception {
-        Analysis analysis = new Analysis();
-        analysis.setId(2);
-        analysis.setDate("15.07.2015");
-        analysis.setNotes("Estimation of thrombocyte, erythrocyte  and leukocyte level");
-        analysisRepository.save(analysis);
-
+    @DatabaseSetup("procedureData.xml")
+    @ExpectedDatabase("updateProcedure.xml")
+    public void updateProcedure() throws Exception {
+        Procedure procedure = new Procedure();
+        procedure.setId(2);
+        procedure.setDate("17.07.2015");
+        procedure.setNotes("replacement of bandage");
+        procedureRepository.save(procedure);
     }
 }

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <card id="1" firstName="Johny" lastName="Depp" birthDate="9.06.1963"
+              diagnosis="Broken hand" symptoms="compound fracture in area near the forearm"
+              additionalNotes="turgidity, pain"/>
+</dataset>

@@ -115,4 +115,18 @@ public class Doctor {
     public void setClinic(Clinic clinic) {
         this.clinic = clinic;
     }
+
+    @Override
+    public String toString() {
+        return "Doctor{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                ", position=" + position +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", rating=" + rating +
+                ", clinic=" + clinic +
+                '}';
+    }
 }

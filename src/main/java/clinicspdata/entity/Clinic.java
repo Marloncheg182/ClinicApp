@@ -12,7 +12,7 @@ public class Clinic {
     @GeneratedValue(generator = "increment", strategy = GenerationType.AUTO)
     @GenericGenerator(name = "increment", strategy = "increment")
     @Column(name = "id", length = 6, nullable = false)
-    private  int id;
+    private int id;
 
     @Column(name = "name")
     private String name;
@@ -38,5 +38,13 @@ public class Clinic {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Clinic{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
     }
 }

@@ -66,5 +66,15 @@ public class Procedure {
     public void setCard(Card card) {
         this.card = card;
     }
+
+    @Override
+    public String toString() {
+        return "Procedure{" +
+                "id=" + id +
+                ", date='" + date + '\'' +
+                ", notes='" + notes + '\'' +
+                ", card=" + card +
+                '}';
+    }
 }
 

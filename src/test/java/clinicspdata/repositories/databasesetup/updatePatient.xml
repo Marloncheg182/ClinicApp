@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <patient id="1" firstName="Johny" lastName="Depp" age="52"
+             patientState="HARD"
+             phone_number="+380-...-..-.."/>
+    <patient id="2" firstName="Kobey" lastName="James" age="28"
+             patientState="COMA"
+             phone_number="+380-...-..-.."/>
+</dataset>

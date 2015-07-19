@@ -2,89 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebc3dce0-b78e-430e-8226-2365486fe4ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/AnalysisRepositoryTest.java" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\.idea\libraries\Maven__org_springframework_security_spring_security_dbunitcase_config_4_0_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\META-INF\app.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\META-INF\hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\META-INF\persistence.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\config\AppWebMVCInitializer.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\config\DataBeanConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\config\DatabaseTestConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\config\Initializer.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\AnalysisController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\CardController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\ClinicController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\DoctorController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\InsuranceController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\NurseController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\OperationController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\PatientController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\controller\ProcedureController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Analysis.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Card.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Clinic.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Doctor.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Insurance.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Nurse.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Operation.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Patient.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\Procedure.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\doctors\DoctorPosition.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\doctors\Rating.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\nurses\NursePosition.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\entity\patients\PatientState.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\AnalysisRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\CardRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\ClinicRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\DoctorRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\InsuranceRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\NurseRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\OperationRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\PatientRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\repositories\ProcedureRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\AnalysisServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\CardServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\ClinicServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\DoctorServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\InsuranceServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\NurseServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\OperationServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\PatientServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\serviceimpl\ProcedureServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\AnalysisService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\CardService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\ClinicService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\DoctorService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\InsuranceService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\NurseService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\OperationService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\PatientService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\clinicspdata\services\ProcedureService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\label_en.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\label_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\classes\log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\AnalysisServiceTest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\CardServiceTest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\ClinicServiceTest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\DoctorServiceTest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\InsuranceServiceTest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\NurseServiceTest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\OperationServiceTest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\PatientServiceTest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\services\ProcedureServiceTest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\AnalysisUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\CardUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\ClinicUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\DoctorUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\InsuranceUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\NurseUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\OperationUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\PatientUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\clinicspdata\util\ProcedureUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IT\Projects\ClinicProject\target\test-classes\connection\TestConnection.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/CardRepositoryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/ClinicRepositoryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/DoctorRepositoryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/InsuranceRepositoryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_springtestdbunit_spring_test_dbunit_1_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/NurseRepositoryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/OperationRepositoryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/PatientRepositoryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/ProcedureRepositoryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/analysisData.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/cardData.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/clinicData.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/doctorData.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/insuranceData.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/nurseData.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/operationData.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/patientData.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/procedureData.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updateCard.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updateClinic.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updateInsurance.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updateNurse.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updateOperation.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updatePatient.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updateProcedure.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updatedAnalysis.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updatedDoctor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Analysis.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Analysis.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/AnalysisRepositoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/AnalysisRepositoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Card.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Card.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Clinic.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Clinic.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClinicProject.iml" afterPath="$PROJECT_DIR$/ClinicProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ClinicProject_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ClinicProject_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/connection/TestConnection.java" afterPath="$PROJECT_DIR$/src/test/java/connection/TestConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Doctor.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Doctor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Insurance.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Insurance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Nurse.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Nurse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Operation.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Operation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Patient.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Patient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Procedure.java" afterPath="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Procedure.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project Description.txt" afterPath="$PROJECT_DIR$/Project Description.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -291,18 +250,7 @@
     <favorites_list name="ClinicProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AnalysisRepositoryTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/AnalysisRepositoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5780142">
-              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -326,44 +274,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/util/ProcedureUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/util/ClinicUtil.java" />
-        <option value="$PROJECT_DIR$/Project Description.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/controller/CardController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/controller/ClinicController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/services/DoctorService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/DoctorServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/repositories/DoctorRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/services/NurseService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/NurseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/repositories/NurseRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/controller/PatientController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/controller/NurseController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/controller/InsuranceController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/controller/DoctorController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/controller/AnalysisController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/controller/OperationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/controller/ProcedureController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicapp/config/AppWebMVCInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/servlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicapp/config/DataBeanConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/app.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/config/DataBeanConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-application-context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/MainServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet/controllers.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet/servlet-context.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/validation/model.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/validation/Model.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/validation/Validation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/validation/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/validation/RegistrationValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/pages/authantication.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/validation/ControllerClass.java" />
         <option value="$PROJECT_DIR$/src/main/resources/label_en.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/label_ru.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/pages/authentication.jsp" />
@@ -376,7 +286,45 @@
         <option value="$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/AnalysisServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/connection/TestConnection.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/analysisData.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updatedAnalysis.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/ClinicRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/clinicData.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/clinicUpdate.xml" />
+        <option value="$PROJECT_DIR$/Project Description.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/DoctorRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Procedure.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Nurse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Insurance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Analysis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Clinic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Doctor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Operation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Patient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clinicspdata/entity/Card.java" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/InsuranceRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updateInsurance.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/insuranceData.xml" />
         <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/AnalysisRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/NurseRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/doctorData.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updatedDoctor.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/nurseData.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/cardData.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/PatientRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/cardUpdate.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updatePatient.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/patientData.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updateNurse.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updateOperation" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/analysisData.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/OperationRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updateOperation.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/operationData.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updateProcedure.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/procedureData.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/CardRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/clinicspdata/repositories/ProcedureRepositoryTest.java" />
       </list>
     </option>
   </component>
@@ -454,8 +402,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="163" />
-    <option name="y" value="3" />
+    <option name="x" value="207" />
+    <option name="y" value="20" />
     <option name="width" value="1038" />
     <option name="height" value="722" />
   </component>
@@ -522,7 +470,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -552,6 +500,104 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClinicProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClinicProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clinicspdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClinicProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClinicProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clinicspdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repositories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClinicProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClinicProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clinicspdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repositories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="databasesetup" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -594,14 +640,10 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clinicspdata" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -640,11 +682,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IT\Projects\ClinicProject\src\test\java\clinicspdata\repositories\databasesetup" />
       <recent name="D:\IT\Projects\ClinicProject\src\test\java\dbunitcase" />
       <recent name="D:\IT\Projects\ClinicProject\src\main\resources\META-INF" />
       <recent name="D:\IT\Projects\ClinicProject\src\main\webapp\resources" />
       <recent name="D:\IT\Projects\ClinicProject\src\test\resources\test.conf\clinic" />
-      <recent name="D:\IT\Projects\ClinicProject\src\test\java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="clinicspdata" />
@@ -1266,50 +1308,51 @@
       <workItem from="1436965193788" duration="20118000" />
       <workItem from="1437075695444" duration="130000" />
       <workItem from="1437076691030" duration="6604000" />
-      <workItem from="1437083588591" duration="56000" />
+      <workItem from="1437083588591" duration="177000" />
+      <workItem from="1437292125715" duration="10172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180239000" />
+    <option name="totallyTimeSpent" value="190532000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="163" y="3" width="1038" height="722" extended-state="0" />
-    <editor active="true" />
+    <frame x="207" y="20" width="1038" height="722" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32656515" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25887266" sideWeight="0.5045386" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282572" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25642964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46875" sideWeight="0.49546143" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3158784" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29447854" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18404908" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Log4jMonitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32656515" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46875" sideWeight="0.49546143" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53451043" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3158784" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29447854" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3108108" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39583334" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53451043" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3108108" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1334,10 +1377,309 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/repositories/AnalysisRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updatedAnalysis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09042553">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/repositories/ClinicRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30141845">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/util/InsuranceUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2109929">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/util/ClinicUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33156028">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/clinicData.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09042553">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updateClinic.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.120567374">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/ClinicRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54787236">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project Description.txt">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9682243">
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/repositories/DoctorRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/repositories/NurseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/repositories/OperationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24113475">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/repositories/PatientRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24113475">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/repositories/ProcedureRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24113475">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/util/DoctorUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18085106">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/repositories/InsuranceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39184397">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/InsuranceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81914896">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/controller/InsuranceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5425532">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/services/InsuranceServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48404256">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/entity/Clinic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33156028">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/entity/Doctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4574468">
+          <caret line="119" column="18" selection-start-line="119" selection-start-column="18" selection-end-line="119" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/entity/Insurance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5780142">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/entity/Nurse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1507093">
+          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/entity/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.05496454">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updateInsurance.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.060283687">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/insuranceData.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09042553">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/InsuranceRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/DoctorRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/entity/nurses/NursePosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3617021">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updatedDoctor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2109929">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/doctorData.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09042553">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/NurseRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="29" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/entity/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4539007">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/entity/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39716312">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updateCard.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24113475">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/cardData.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.120567374">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/patientData.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18085106">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updatePatient.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24113475">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/PatientRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1345,366 +1687,107 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/AnalysisRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/controller/OperationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.140071">
-          <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/controller/ProcedureController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60638297">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2996454">
-          <caret line="156" column="13" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/config/Initializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5989933">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/app.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11409396">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42785236">
-          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48489934">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/entity/Analysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.08557047">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/config/AppWebMVCInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17114094">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/pages/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6312057">
-          <caret line="6344" column="1" selection-start-line="6344" selection-start-column="1" selection-end-line="6344" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/label_en.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0317757">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/label_ru.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0635514">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/entity/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2109929">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/services/ClinicService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49357328">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_05/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33161953">
-          <caret line="759" column="0" selection-start-line="759" selection-start-column="0" selection-end-line="759" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE-sources.jar!/org/springframework/web/SpringServletContainerInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.437018">
-          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_05/src.zip!/com/sun/jmx/interceptor/DefaultMBeanServerInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9">
-          <caret line="818" column="0" selection-start-line="818" selection-start-column="0" selection-end-line="818" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE-sources.jar!/org/springframework/web/context/AbstractContextLoaderInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33076924">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_05/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33076924">
-          <caret line="744" column="0" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_05/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1153846">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/services/AnalysisService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0195036">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33156028">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.9070632">
-          <caret line="355" column="17" selection-start-line="355" selection-start-column="17" selection-end-line="355" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet/servlet-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6028369">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/dbunit/dbunit/2.5.1/dbunit-2.5.1.jar!/org/dbunit/dataset/IDataSet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.851851">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/CardServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.035460994">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/ClinicServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.035460994">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/DoctorServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.03368794">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/InsuranceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21631205">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/NurseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09042553">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/OperationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09042553">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/PatientServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09042553">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/ProcedureServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21631205">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/dbunit/dbunit/2.5.1/dbunit-2.5.1-sources.jar!/org/dbunit/dataset/IDataSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15070923">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/dbunit/dbunit/2.5.1/dbunit-2.5.1-sources.jar!/org/dbunit/DatabaseTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4539007">
-          <caret line="75" column="7" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/config/DatabaseTestConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1722913">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/config/DataBeanConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84547067">
-          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/serviceimpl/AnalysisServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updateNurse.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24156305">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/services/AnalysisServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27531084">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/util/AnalysisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21136767">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/connection/TestConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/nurseData.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03374778">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/github/springtestdbunit/spring-test-dbunit/1.2.1/spring-test-dbunit-1.2.1.pom">
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/operationData.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.77087">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.120567374">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updateOperation.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2801418">
-          <caret line="186" column="20" selection-start-line="186" selection-start-column="20" selection-end-line="186" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.18085106">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/repositories/AnalysisRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/entity/Procedure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24113475">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.15602838">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/AnalysisRepositoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/clinicspdata/entity/Analysis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5780142">
-          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.2464539">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/analysisData.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/procedureData.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09042553">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/OperationRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5177305">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/CardRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5177305">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+          <folding>
+            <element signature="docComment;class#CardRepositoryTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/databasesetup/updateProcedure.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.120567374">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/clinicspdata/repositories/ProcedureRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75886524">
+          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
           <folding />
         </state>
       </provider>

@@ -102,4 +102,17 @@ public class Nurse {
     public void setClinic(Clinic clinic) {
         this.clinic = clinic;
     }
+
+    @Override
+    public String toString() {
+        return "Nurse{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                ", position=" + position +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", clinic=" + clinic +
+                '}';
+    }
 }

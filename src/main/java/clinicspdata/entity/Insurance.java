@@ -15,7 +15,7 @@ public class Insurance {
     private long id;
 
     @Column(name = "bank_account")
-    private int bankAccount;
+    private long bankAccount;
 
     // creating of relations between Insurance table and Card.
     @OneToOne(optional = false, targetEntity = Card.class)
@@ -25,7 +25,7 @@ public class Insurance {
     public Insurance() {
     }
 
-    public Insurance(int bankAccount, Card card) {
+    public Insurance(long bankAccount, Card card) {
         this.bankAccount = bankAccount;
         this.card = card;
     }
@@ -38,11 +38,11 @@ public class Insurance {
         this.id = id;
     }
 
-    public int getBankAccount() {
+    public long getBankAccount() {
         return bankAccount;
     }
 
-    public void setBankAccount(int bankAccount) {
+    public void setBankAccount(long bankAccount) {
         this.bankAccount = bankAccount;
     }
 
@@ -52,5 +52,14 @@ public class Insurance {
 
     public void setCard(Card card) {
         this.card = card;
+    }
+
+    @Override
+    public String toString() {
+        return "Insurance{" +
+                "id=" + id +
+                ", bankAccount=" + bankAccount +
+                ", card=" + card +
+                '}';
     }
 }

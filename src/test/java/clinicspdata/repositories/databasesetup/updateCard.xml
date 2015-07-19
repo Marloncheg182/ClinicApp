@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <card id="1" firstName="Johny" lastName="Depp" birthDate="9.06.1963"
+          diagnosis="Broken hand" symptoms="compound fracture in area near the forearm"
+          additionalNotes="turgidity, pain"/>
+    <card id="2" firstName="Kobey" lastName="James" birthDate="13.09.1987"
+              diagnosis="Bullet wound" symptoms="penetration in area of neck, high bleeding"
+              additionalNotes="injured arteria, patient in coma, spinal column affected"/>
+</dataset>

@@ -65,4 +65,14 @@ public class Analysis {
     public void setCard(Card card) {
         this.card = card;
     }
+
+    @Override
+    public String toString() {
+        return "Analysis{" +
+                "id=" + id +
+                ", date='" + date + '\'' +
+                ", notes='" + notes + '\'' +
+                ", card=" + card +
+                '}';
+    }
 }

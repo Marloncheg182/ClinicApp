@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <doctor id="1" firstName="Gregory" lastName="House" age="52"
+            doctorPosition="HEAD" rating="HEAD"
+          phone_number="+380-...-..-.."/>
+    <doctor id="2" firstName="Patrick" lastName="Walsh" age="28" doctorPosition="SURGEON"
+            rating="MIDDLE" phone_number="38050-...-..-.."/>
+</dataset>

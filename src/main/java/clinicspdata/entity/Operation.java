@@ -77,4 +77,15 @@ public class Operation {
     public void setCard(Card card) {
         this.card = card;
     }
+
+    @Override
+    public String toString() {
+        return "Operation{" +
+                "id=" + id +
+                ", date='" + date + '\'' +
+                ", type='" + type + '\'' +
+                ", result='" + result + '\'' +
+                ", card=" + card +
+                '}';
+    }
 }
